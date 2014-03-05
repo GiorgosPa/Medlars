@@ -1,0 +1,4464 @@
+
+Queryid (Num):        1
+Total number of documents over all queries
+    Retrieved:       62
+    Relevant:        37
+    Rel_ret:         36
+Interpolated Recall - Precision Averages:
+    at 0.00       0.5902 
+    at 0.10       0.5902 
+    at 0.20       0.5902 
+    at 0.30       0.5902 
+    at 0.40       0.5902 
+    at 0.50       0.5902 
+    at 0.60       0.5902 
+    at 0.70       0.5902 
+    at 0.80       0.5902 
+    at 0.90       0.5902 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.4229 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.2000
+  At   15 docs:   0.2000
+  At   20 docs:   0.3000
+  At   30 docs:   0.4333
+  At  100 docs:   0.3600
+  At  200 docs:   0.1800
+  At  500 docs:   0.0720
+  At 1000 docs:   0.0360
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.3514
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.5806
+Recall:
+   Exact:         0.9730
+   at   5 docs:   0.0000
+   at  10 docs:   0.0541
+   at  15 docs:   0.0811
+   at  20 docs:   0.1622
+   at  30 docs:   0.3514
+   at 100 docs:   0.9730
+   at 200 docs:   0.9730
+   at 500 docs:   0.9730
+   at 1000 docs:   0.9730
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.5365 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5902 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.3514
+    At 0.20  R:   0.1250
+    At 0.40  R:   0.2000
+    At 0.60  R:   0.3913
+    At 0.80  R:   0.4333
+    At 1.00  R:   0.3514
+    At 1.20  R:   0.4667
+    At 1.40  R:   0.5192
+    At 1.60  R:   0.5833
+    At 1.80  R:   0.5373
+    At 2.00  R:   0.4865
+Relative Precision:
+   Exact:         0.9730
+   Average:       0.4336
+   At   5 docs:   0.0000
+   At  10 docs:   0.2000
+   At  15 docs:   0.2000
+   At  20 docs:   0.3000
+   At  30 docs:   0.4333
+   At 100 docs:   0.9730
+   At 200 docs:   0.9730
+   At 500 docs:   0.9730
+   At 1000 docs:   0.9730
+Unranked Average Precision:
+   Exact:         0.5650
+   At   5 docs:   0.0000
+   At  10 docs:   0.0108
+   At  15 docs:   0.0162
+   At  20 docs:   0.0486
+   At  30 docs:   0.1523
+   At 100 docs:   0.3503
+   At 200 docs:   0.1751
+   At 500 docs:   0.0701
+   At 1000 docs:   0.0350
+Relative Unranked Average Precision:
+   Exact:         0.3371
+   Average:       0.2577
+   At   5 docs:   0.0000
+   At  10 docs:   0.0400
+   At  15 docs:   0.0400
+   At  20 docs:   0.0900
+   At  30 docs:   0.1878
+   At 100 docs:   0.1296
+   At 200 docs:   0.0324
+   At 500 docs:   0.0052
+   At 1000 docs:   0.0013
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         10.0000
+Average precision for first R docs retrieved:
+                  0.2547
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.3514
+    At  28 docs:   0.9730
+    At  42 docs:   0.9730
+    At  56 docs:   0.9730
+    At  71 docs:   0.9730
+    At  85 docs:   0.9730
+    At  99 docs:   0.9730
+    At 113 docs:   0.9730
+    At 127 docs:   0.9730
+    At 142 docs:   0.9730
+Average recall for first 142 nonrel docs retrieved:
+                   0.8342
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.5742 
+R-based-interpolated-Precision:
+    Exact:        0.5902
+    At 0.20  R:   0.5902
+    At 0.40  R:   0.5902
+    At 0.60  R:   0.5902
+    At 0.80  R:   0.5902
+    At 1.00  R:   0.5902
+    At 1.20  R:   0.5902
+    At 1.40  R:   0.5902
+    At 1.60  R:   0.5902
+    At 1.80  R:   0.5373
+    At 2.00  R:   0.4865
+Average interpolated precision for first R docs retrieved:
+                  0.5742
+
+Queryid (Num):        2
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        16
+    Rel_ret:         15
+Interpolated Recall - Precision Averages:
+    at 0.00       0.0847 
+    at 0.10       0.0847 
+    at 0.20       0.0847 
+    at 0.30       0.0847 
+    at 0.40       0.0847 
+    at 0.50       0.0847 
+    at 0.60       0.0847 
+    at 0.70       0.0847 
+    at 0.80       0.0847 
+    at 0.90       0.0847 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0548 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0000
+  At   30 docs:   0.0333
+  At  100 docs:   0.0200
+  At  200 docs:   0.0750
+  At  500 docs:   0.0300
+  At 1000 docs:   0.0150
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0000
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.0750
+Recall:
+   Exact:         0.9375
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0000
+   at  30 docs:   0.0625
+   at 100 docs:   0.1250
+   at 200 docs:   0.9375
+   at 500 docs:   0.9375
+   at 1000 docs:   0.9375
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.0770 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.0847 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0000
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0000
+    At 1.00  R:   0.0000
+    At 1.20  R:   0.0000
+    At 1.40  R:   0.0435
+    At 1.60  R:   0.0385
+    At 1.80  R:   0.0345
+    At 2.00  R:   0.0313
+Relative Precision:
+   Exact:         0.9375
+   Average:       0.3259
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0625
+   At 100 docs:   0.1250
+   At 200 docs:   0.9375
+   At 500 docs:   0.9375
+   At 1000 docs:   0.9375
+Unranked Average Precision:
+   Exact:         0.0703
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0021
+   At 100 docs:   0.0025
+   At 200 docs:   0.0703
+   At 500 docs:   0.0281
+   At 1000 docs:   0.0141
+Relative Unranked Average Precision:
+   Exact:         0.0056
+   Average:       0.2172
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0039
+   At 100 docs:   0.0156
+   At 200 docs:   0.8789
+   At 500 docs:   0.0009
+   At 1000 docs:   0.0002
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -170.0000
+Average precision for first R docs retrieved:
+                  0.0000
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.0625
+    At  42 docs:   0.1250
+    At  56 docs:   0.1250
+    At  71 docs:   0.1250
+    At  85 docs:   0.1250
+    At  99 docs:   0.1250
+    At 113 docs:   0.1250
+    At 127 docs:   0.2500
+    At 142 docs:   0.6875
+Average recall for first 142 nonrel docs retrieved:
+                   0.1391
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.0794 
+R-based-interpolated-Precision:
+    Exact:        0.0847
+    At 0.20  R:   0.0847
+    At 0.40  R:   0.0847
+    At 0.60  R:   0.0847
+    At 0.80  R:   0.0847
+    At 1.00  R:   0.0847
+    At 1.20  R:   0.0847
+    At 1.40  R:   0.0847
+    At 1.60  R:   0.0847
+    At 1.80  R:   0.0847
+    At 2.00  R:   0.0847
+Average interpolated precision for first R docs retrieved:
+                  0.0794
+
+Queryid (Num):        3
+Total number of documents over all queries
+    Retrieved:       79
+    Relevant:        22
+    Rel_ret:         16
+Interpolated Recall - Precision Averages:
+    at 0.00       0.3478 
+    at 0.10       0.3478 
+    at 0.20       0.3478 
+    at 0.30       0.3478 
+    at 0.40       0.2459 
+    at 0.50       0.2459 
+    at 0.60       0.2459 
+    at 0.70       0.2162 
+    at 0.80       0.0000 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.1724 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.1000
+  At   15 docs:   0.2000
+  At   20 docs:   0.3000
+  At   30 docs:   0.2667
+  At  100 docs:   0.1600
+  At  200 docs:   0.0800
+  At  500 docs:   0.0320
+  At 1000 docs:   0.0160
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.3182
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.2025
+Recall:
+   Exact:         0.7273
+   at   5 docs:   0.0000
+   at  10 docs:   0.0455
+   at  15 docs:   0.1364
+   at  20 docs:   0.2727
+   at  30 docs:   0.3636
+   at 100 docs:   0.7273
+   at 200 docs:   0.7273
+   at 500 docs:   0.7273
+   at 1000 docs:   0.7273
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.2132 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.1979 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.3182
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.1111
+    At 0.60  R:   0.1429
+    At 0.80  R:   0.3333
+    At 1.00  R:   0.3182
+    At 1.20  R:   0.2963
+    At 1.40  R:   0.2581
+    At 1.60  R:   0.2222
+    At 1.80  R:   0.2000
+    At 2.00  R:   0.1818
+Relative Precision:
+   Exact:         0.7273
+   Average:       0.4111
+   At   5 docs:   0.0000
+   At  10 docs:   0.1000
+   At  15 docs:   0.2000
+   At  20 docs:   0.3000
+   At  30 docs:   0.3636
+   At 100 docs:   0.7273
+   At 200 docs:   0.7273
+   At 500 docs:   0.7273
+   At 1000 docs:   0.7273
+Unranked Average Precision:
+   Exact:         0.1473
+   At   5 docs:   0.0000
+   At  10 docs:   0.0045
+   At  15 docs:   0.0273
+   At  20 docs:   0.0818
+   At  30 docs:   0.0970
+   At 100 docs:   0.1164
+   At 200 docs:   0.0582
+   At 500 docs:   0.0233
+   At 1000 docs:   0.0116
+Relative Unranked Average Precision:
+   Exact:         0.0410
+   Average:       0.2180
+   At   5 docs:   0.0000
+   At  10 docs:   0.0100
+   At  15 docs:   0.0400
+   At  20 docs:   0.0900
+   At  30 docs:   0.1322
+   At 100 docs:   0.0256
+   At 200 docs:   0.0064
+   At 500 docs:   0.0010
+   At 1000 docs:   0.0003
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -47.0000
+Average precision for first R docs retrieved:
+                  0.1210
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.3636
+    At  28 docs:   0.3636
+    At  42 docs:   0.5455
+    At  56 docs:   0.6818
+    At  71 docs:   0.7273
+    At  85 docs:   0.7273
+    At  99 docs:   0.7273
+    At 113 docs:   0.7273
+    At 127 docs:   0.7273
+    At 142 docs:   0.7273
+Average recall for first 142 nonrel docs retrieved:
+                   0.5851
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.2146 
+R-based-interpolated-Precision:
+    Exact:        0.3478
+    At 0.20  R:   0.3478
+    At 0.40  R:   0.3478
+    At 0.60  R:   0.3478
+    At 0.80  R:   0.3478
+    At 1.00  R:   0.3478
+    At 1.20  R:   0.2963
+    At 1.40  R:   0.2581
+    At 1.60  R:   0.2459
+    At 1.80  R:   0.2459
+    At 2.00  R:   0.2459
+Average interpolated precision for first R docs retrieved:
+                  0.3320
+
+Queryid (Num):        4
+Total number of documents over all queries
+    Retrieved:      159
+    Relevant:        23
+    Rel_ret:         22
+Interpolated Recall - Precision Averages:
+    at 0.00       0.3750 
+    at 0.10       0.3750 
+    at 0.20       0.1458 
+    at 0.30       0.1458 
+    at 0.40       0.1458 
+    at 0.50       0.1458 
+    at 0.60       0.1458 
+    at 0.70       0.1458 
+    at 0.80       0.1458 
+    at 0.90       0.1458 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.1257 
+Precision:
+  At    5 docs:   0.2000
+  At   10 docs:   0.3000
+  At   15 docs:   0.2000
+  At   20 docs:   0.1500
+  At   30 docs:   0.1000
+  At  100 docs:   0.1000
+  At  200 docs:   0.1100
+  At  500 docs:   0.0440
+  At 1000 docs:   0.0220
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.1304
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.1384
+Recall:
+   Exact:         0.9565
+   at   5 docs:   0.0435
+   at  10 docs:   0.1304
+   at  15 docs:   0.1304
+   at  20 docs:   0.1304
+   at  30 docs:   0.1304
+   at 100 docs:   0.4348
+   at 200 docs:   0.9565
+   at 500 docs:   0.9565
+   at 1000 docs:   0.9565
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.1742 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.1458 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.1304
+    At 0.20  R:   0.2000
+    At 0.40  R:   0.3000
+    At 0.60  R:   0.2143
+    At 0.80  R:   0.1579
+    At 1.00  R:   0.1304
+    At 1.20  R:   0.1071
+    At 1.40  R:   0.0909
+    At 1.60  R:   0.0811
+    At 1.80  R:   0.0714
+    At 2.00  R:   0.0652
+Relative Precision:
+   Exact:         0.9565
+   Average:       0.3515
+   At   5 docs:   0.2000
+   At  10 docs:   0.3000
+   At  15 docs:   0.2000
+   At  20 docs:   0.1500
+   At  30 docs:   0.1304
+   At 100 docs:   0.4348
+   At 200 docs:   0.9565
+   At 500 docs:   0.9565
+   At 1000 docs:   0.9565
+Unranked Average Precision:
+   Exact:         0.1323
+   At   5 docs:   0.0087
+   At  10 docs:   0.0391
+   At  15 docs:   0.0261
+   At  20 docs:   0.0196
+   At  30 docs:   0.0130
+   At 100 docs:   0.0435
+   At 200 docs:   0.1052
+   At 500 docs:   0.0421
+   At 1000 docs:   0.0210
+Relative Unranked Average Precision:
+   Exact:         0.0191
+   Average:       0.1957
+   At   5 docs:   0.0400
+   At  10 docs:   0.0900
+   At  15 docs:   0.0400
+   At  20 docs:   0.0225
+   At  30 docs:   0.0170
+   At 100 docs:   0.1890
+   At 200 docs:   0.0121
+   At 500 docs:   0.0019
+   At 1000 docs:   0.0005
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -115.0000
+Average precision for first R docs retrieved:
+                  0.1788
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.1304
+    At  28 docs:   0.1304
+    At  42 docs:   0.1304
+    At  56 docs:   0.1304
+    At  71 docs:   0.1304
+    At  85 docs:   0.4348
+    At  99 docs:   0.4348
+    At 113 docs:   0.4783
+    At 127 docs:   0.9130
+    At 142 docs:   0.9565
+Average recall for first 142 nonrel docs retrieved:
+                   0.3362
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.1693 
+R-based-interpolated-Precision:
+    Exact:        0.1458
+    At 0.20  R:   0.3750
+    At 0.40  R:   0.3000
+    At 0.60  R:   0.2143
+    At 0.80  R:   0.1579
+    At 1.00  R:   0.1458
+    At 1.20  R:   0.1458
+    At 1.40  R:   0.1458
+    At 1.60  R:   0.1458
+    At 1.80  R:   0.1458
+    At 2.00  R:   0.1458
+Average interpolated precision for first R docs retrieved:
+                  0.2579
+
+Queryid (Num):        5
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        26
+    Rel_ret:         25
+Interpolated Recall - Precision Averages:
+    at 0.00       0.1250 
+    at 0.10       0.1250 
+    at 0.20       0.1250 
+    at 0.30       0.1250 
+    at 0.40       0.1250 
+    at 0.50       0.1250 
+    at 0.60       0.1250 
+    at 0.70       0.1250 
+    at 0.80       0.1250 
+    at 0.90       0.1250 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0825 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0000
+  At   30 docs:   0.0000
+  At  100 docs:   0.0400
+  At  200 docs:   0.1250
+  At  500 docs:   0.0500
+  At 1000 docs:   0.0250
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0000
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.1250
+Recall:
+   Exact:         0.9615
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0000
+   at  30 docs:   0.0000
+   at 100 docs:   0.1538
+   at 200 docs:   0.9615
+   at 500 docs:   0.9615
+   at 1000 docs:   0.9615
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.1136 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.1250 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0000
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0000
+    At 1.00  R:   0.0000
+    At 1.20  R:   0.0000
+    At 1.40  R:   0.0270
+    At 1.60  R:   0.0238
+    At 1.80  R:   0.0213
+    At 2.00  R:   0.0192
+Relative Precision:
+   Exact:         0.9615
+   Average:       0.3015
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.1538
+   At 200 docs:   0.9615
+   At 500 docs:   0.9615
+   At 1000 docs:   0.9615
+Unranked Average Precision:
+   Exact:         0.1202
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0062
+   At 200 docs:   0.1202
+   At 500 docs:   0.0481
+   At 1000 docs:   0.0240
+Relative Unranked Average Precision:
+   Exact:         0.0156
+   Average:       0.1865
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0237
+   At 200 docs:   0.9246
+   At 500 docs:   0.0025
+   At 1000 docs:   0.0006
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -150.0000
+Average precision for first R docs retrieved:
+                  0.0000
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.0000
+    At  42 docs:   0.0385
+    At  56 docs:   0.0769
+    At  71 docs:   0.1154
+    At  85 docs:   0.1154
+    At  99 docs:   0.1538
+    At 113 docs:   0.1538
+    At 127 docs:   0.6538
+    At 142 docs:   0.6538
+Average recall for first 142 nonrel docs retrieved:
+                   0.1528
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.1202 
+R-based-interpolated-Precision:
+    Exact:        0.1250
+    At 0.20  R:   0.1250
+    At 0.40  R:   0.1250
+    At 0.60  R:   0.1250
+    At 0.80  R:   0.1250
+    At 1.00  R:   0.1250
+    At 1.20  R:   0.1250
+    At 1.40  R:   0.1250
+    At 1.60  R:   0.1250
+    At 1.80  R:   0.1250
+    At 2.00  R:   0.1250
+Average interpolated precision for first R docs retrieved:
+                  0.1202
+
+Queryid (Num):        6
+Total number of documents over all queries
+    Retrieved:      102
+    Relevant:        13
+    Rel_ret:         13
+Interpolated Recall - Precision Averages:
+    at 0.00       0.1398 
+    at 0.10       0.1398 
+    at 0.20       0.1398 
+    at 0.30       0.1398 
+    at 0.40       0.1398 
+    at 0.50       0.1398 
+    at 0.60       0.1398 
+    at 0.70       0.1398 
+    at 0.80       0.1398 
+    at 0.90       0.1398 
+    at 1.00       0.1398 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0851 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0000
+  At   30 docs:   0.0000
+  At  100 docs:   0.1300
+  At  200 docs:   0.0650
+  At  500 docs:   0.0260
+  At 1000 docs:   0.0130
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0000
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.1275
+Recall:
+   Exact:         1.0000
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0000
+   at  30 docs:   0.0000
+   at 100 docs:   1.0000
+   at 200 docs:   1.0000
+   at 500 docs:   1.0000
+   at 1000 docs:   1.0000
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.1398 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.1398 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0000
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0000
+    At 1.00  R:   0.0000
+    At 1.20  R:   0.0000
+    At 1.40  R:   0.0000
+    At 1.60  R:   0.0000
+    At 1.80  R:   0.0000
+    At 2.00  R:   0.0000
+Relative Precision:
+   Exact:         1.0000
+   Average:       0.2549
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   1.0000
+   At 200 docs:   1.0000
+   At 500 docs:   1.0000
+   At 1000 docs:   1.0000
+Unranked Average Precision:
+   Exact:         0.1275
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.1300
+   At 200 docs:   0.0650
+   At 500 docs:   0.0260
+   At 1000 docs:   0.0130
+Relative Unranked Average Precision:
+   Exact:         0.0162
+   Average:       0.1867
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   1.0000
+   At 200 docs:   0.0042
+   At 500 docs:   0.0007
+   At 1000 docs:   0.0002
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -76.0000
+Average precision for first R docs retrieved:
+                  0.0000
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.0000
+    At  42 docs:   0.0000
+    At  56 docs:   0.2308
+    At  71 docs:   0.3846
+    At  85 docs:   1.0000
+    At  99 docs:   1.0000
+    At 113 docs:   1.0000
+    At 127 docs:   1.0000
+    At 142 docs:   1.0000
+Average recall for first 142 nonrel docs retrieved:
+                   0.5070
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.1398 
+R-based-interpolated-Precision:
+    Exact:        0.1398
+    At 0.20  R:   0.1398
+    At 0.40  R:   0.1398
+    At 0.60  R:   0.1398
+    At 0.80  R:   0.1398
+    At 1.00  R:   0.1398
+    At 1.20  R:   0.1398
+    At 1.40  R:   0.1398
+    At 1.60  R:   0.1398
+    At 1.80  R:   0.1398
+    At 2.00  R:   0.1398
+Average interpolated precision for first R docs retrieved:
+                  0.1290
+
+Queryid (Num):        7
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        15
+    Rel_ret:         13
+Interpolated Recall - Precision Averages:
+    at 0.00       0.0692 
+    at 0.10       0.0692 
+    at 0.20       0.0692 
+    at 0.30       0.0692 
+    at 0.40       0.0692 
+    at 0.50       0.0692 
+    at 0.60       0.0692 
+    at 0.70       0.0692 
+    at 0.80       0.0691 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0448 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0500
+  At   30 docs:   0.0333
+  At  100 docs:   0.0100
+  At  200 docs:   0.0650
+  At  500 docs:   0.0260
+  At 1000 docs:   0.0130
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0000
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.0650
+Recall:
+   Exact:         0.8667
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0667
+   at  30 docs:   0.0667
+   at 100 docs:   0.0667
+   at 200 docs:   0.8667
+   at 500 docs:   0.8667
+   at 1000 docs:   0.8667
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.0566 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.0692 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0000
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0000
+    At 1.00  R:   0.0000
+    At 1.20  R:   0.0000
+    At 1.40  R:   0.0476
+    At 1.60  R:   0.0417
+    At 1.80  R:   0.0370
+    At 2.00  R:   0.0333
+Relative Precision:
+   Exact:         0.8667
+   Average:       0.3043
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0667
+   At  30 docs:   0.0667
+   At 100 docs:   0.0667
+   At 200 docs:   0.8667
+   At 500 docs:   0.8667
+   At 1000 docs:   0.8667
+Unranked Average Precision:
+   Exact:         0.0563
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0033
+   At  30 docs:   0.0022
+   At 100 docs:   0.0007
+   At 200 docs:   0.0563
+   At 500 docs:   0.0225
+   At 1000 docs:   0.0113
+Relative Unranked Average Precision:
+   Exact:         0.0042
+   Average:       0.1960
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0044
+   At  30 docs:   0.0044
+   At 100 docs:   0.0044
+   At 200 docs:   0.7511
+   At 500 docs:   0.0007
+   At 1000 docs:   0.0002
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -174.0000
+Average precision for first R docs retrieved:
+                  0.0000
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.0667
+    At  42 docs:   0.0667
+    At  56 docs:   0.0667
+    At  71 docs:   0.0667
+    At  85 docs:   0.0667
+    At  99 docs:   0.0667
+    At 113 docs:   0.0667
+    At 127 docs:   0.6000
+    At 142 docs:   0.6000
+Average recall for first 142 nonrel docs retrieved:
+                   0.1357
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.0600 
+R-based-interpolated-Precision:
+    Exact:        0.0692
+    At 0.20  R:   0.0692
+    At 0.40  R:   0.0692
+    At 0.60  R:   0.0692
+    At 0.80  R:   0.0692
+    At 1.00  R:   0.0692
+    At 1.20  R:   0.0692
+    At 1.40  R:   0.0692
+    At 1.60  R:   0.0692
+    At 1.80  R:   0.0692
+    At 2.00  R:   0.0692
+Average interpolated precision for first R docs retrieved:
+                  0.0646
+
+Queryid (Num):        8
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        11
+    Rel_ret:         11
+Interpolated Recall - Precision Averages:
+    at 0.00       0.0576 
+    at 0.10       0.0576 
+    at 0.20       0.0576 
+    at 0.30       0.0576 
+    at 0.40       0.0576 
+    at 0.50       0.0576 
+    at 0.60       0.0576 
+    at 0.70       0.0576 
+    at 0.80       0.0576 
+    at 0.90       0.0576 
+    at 1.00       0.0576 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0393 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0000
+  At   30 docs:   0.0000
+  At  100 docs:   0.0300
+  At  200 docs:   0.0550
+  At  500 docs:   0.0220
+  At 1000 docs:   0.0110
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0000
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.0550
+Recall:
+   Exact:         1.0000
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0000
+   at  30 docs:   0.0000
+   at 100 docs:   0.2727
+   at 200 docs:   1.0000
+   at 500 docs:   1.0000
+   at 1000 docs:   1.0000
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.0576 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.0576 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0000
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0000
+    At 1.00  R:   0.0000
+    At 1.20  R:   0.0000
+    At 1.40  R:   0.0000
+    At 1.60  R:   0.0000
+    At 1.80  R:   0.0000
+    At 2.00  R:   0.0000
+Relative Precision:
+   Exact:         1.0000
+   Average:       0.2968
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.2727
+   At 200 docs:   1.0000
+   At 500 docs:   1.0000
+   At 1000 docs:   1.0000
+Unranked Average Precision:
+   Exact:         0.0550
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0082
+   At 200 docs:   0.0550
+   At 500 docs:   0.0220
+   At 1000 docs:   0.0110
+Relative Unranked Average Precision:
+   Exact:         0.0030
+   Average:       0.2001
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0744
+   At 200 docs:   1.0000
+   At 500 docs:   0.0005
+   At 1000 docs:   0.0001
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -178.0000
+Average precision for first R docs retrieved:
+                  0.0000
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.0000
+    At  42 docs:   0.0000
+    At  56 docs:   0.0000
+    At  71 docs:   0.0000
+    At  85 docs:   0.1818
+    At  99 docs:   0.2727
+    At 113 docs:   0.2727
+    At 127 docs:   0.2727
+    At 142 docs:   0.2727
+Average recall for first 142 nonrel docs retrieved:
+                   0.1140
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.0576 
+R-based-interpolated-Precision:
+    Exact:        0.0576
+    At 0.20  R:   0.0576
+    At 0.40  R:   0.0576
+    At 0.60  R:   0.0576
+    At 0.80  R:   0.0576
+    At 1.00  R:   0.0576
+    At 1.20  R:   0.0576
+    At 1.40  R:   0.0576
+    At 1.60  R:   0.0576
+    At 1.80  R:   0.0576
+    At 2.00  R:   0.0576
+Average interpolated precision for first R docs retrieved:
+                  0.0524
+
+Queryid (Num):        9
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        28
+    Rel_ret:         25
+Interpolated Recall - Precision Averages:
+    at 0.00       0.1373 
+    at 0.10       0.1373 
+    at 0.20       0.1373 
+    at 0.30       0.1373 
+    at 0.40       0.1373 
+    at 0.50       0.1373 
+    at 0.60       0.1373 
+    at 0.70       0.1373 
+    at 0.80       0.1344 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0843 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0500
+  At   30 docs:   0.0333
+  At  100 docs:   0.0500
+  At  200 docs:   0.1250
+  At  500 docs:   0.0500
+  At 1000 docs:   0.0250
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0357
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.1250
+Recall:
+   Exact:         0.8929
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0357
+   at  30 docs:   0.0357
+   at 100 docs:   0.1786
+   at 200 docs:   0.8929
+   at 500 docs:   0.8929
+   at 1000 docs:   0.8929
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.1120 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.1363 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0357
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0588
+    At 0.80  R:   0.0435
+    At 1.00  R:   0.0357
+    At 1.20  R:   0.0294
+    At 1.40  R:   0.0250
+    At 1.60  R:   0.0222
+    At 1.80  R:   0.0196
+    At 2.00  R:   0.0179
+Relative Precision:
+   Exact:         0.8929
+   Average:       0.3359
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0500
+   At  30 docs:   0.0357
+   At 100 docs:   0.1786
+   At 200 docs:   0.8929
+   At 500 docs:   0.8929
+   At 1000 docs:   0.8929
+Unranked Average Precision:
+   Exact:         0.1116
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0018
+   At  30 docs:   0.0012
+   At 100 docs:   0.0089
+   At 200 docs:   0.1116
+   At 500 docs:   0.0446
+   At 1000 docs:   0.0223
+Relative Unranked Average Precision:
+   Exact:         0.0156
+   Average:       0.2096
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0025
+   At  30 docs:   0.0013
+   At 100 docs:   0.0319
+   At 200 docs:   0.7972
+   At 500 docs:   0.0025
+   At 1000 docs:   0.0006
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -150.0000
+Average precision for first R docs retrieved:
+                  0.0205
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0357
+    At  28 docs:   0.0357
+    At  42 docs:   0.0357
+    At  56 docs:   0.0357
+    At  71 docs:   0.0714
+    At  85 docs:   0.1786
+    At  99 docs:   0.3571
+    At 113 docs:   0.3929
+    At 127 docs:   0.4643
+    At 142 docs:   0.7500
+Average recall for first 142 nonrel docs retrieved:
+                   0.1934
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.1221 
+R-based-interpolated-Precision:
+    Exact:        0.1373
+    At 0.20  R:   0.1373
+    At 0.40  R:   0.1373
+    At 0.60  R:   0.1373
+    At 0.80  R:   0.1373
+    At 1.00  R:   0.1373
+    At 1.20  R:   0.1373
+    At 1.40  R:   0.1373
+    At 1.60  R:   0.1373
+    At 1.80  R:   0.1373
+    At 2.00  R:   0.1373
+Average interpolated precision for first R docs retrieved:
+                  0.1324
+
+Queryid (Num):       10
+Total number of documents over all queries
+    Retrieved:        6
+    Relevant:        24
+    Rel_ret:          2
+Interpolated Recall - Precision Averages:
+    at 0.00       0.5000 
+    at 0.10       0.0000 
+    at 0.20       0.0000 
+    at 0.30       0.0000 
+    at 0.40       0.0000 
+    at 0.50       0.0000 
+    at 0.60       0.0000 
+    at 0.70       0.0000 
+    at 0.80       0.0000 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0347 
+Precision:
+  At    5 docs:   0.4000
+  At   10 docs:   0.2000
+  At   15 docs:   0.1333
+  At   20 docs:   0.1000
+  At   30 docs:   0.0667
+  At  100 docs:   0.0200
+  At  200 docs:   0.0100
+  At  500 docs:   0.0040
+  At 1000 docs:   0.0020
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0833
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.3333
+Recall:
+   Exact:         0.0833
+   at   5 docs:   0.0833
+   at  10 docs:   0.0833
+   at  15 docs:   0.0833
+   at  20 docs:   0.0833
+   at  30 docs:   0.0833
+   at 100 docs:   0.0833
+   at 200 docs:   0.0833
+   at 500 docs:   0.0833
+   at 1000 docs:   0.0833
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.0455 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.0000 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0833
+    At 0.20  R:   0.4000
+    At 0.40  R:   0.2000
+    At 0.60  R:   0.1333
+    At 0.80  R:   0.1000
+    At 1.00  R:   0.0833
+    At 1.20  R:   0.0690
+    At 1.40  R:   0.0588
+    At 1.60  R:   0.0513
+    At 1.80  R:   0.0455
+    At 2.00  R:   0.0417
+Relative Precision:
+   Exact:         0.3333
+   Average:       0.2611
+   At   5 docs:   0.4000
+   At  10 docs:   0.2000
+   At  15 docs:   0.1333
+   At  20 docs:   0.1000
+   At  30 docs:   0.0833
+   At 100 docs:   0.0833
+   At 200 docs:   0.0833
+   At 500 docs:   0.0833
+   At 1000 docs:   0.0833
+Unranked Average Precision:
+   Exact:         0.0278
+   At   5 docs:   0.0333
+   At  10 docs:   0.0167
+   At  15 docs:   0.0111
+   At  20 docs:   0.0083
+   At  30 docs:   0.0056
+   At 100 docs:   0.0017
+   At 200 docs:   0.0008
+   At 500 docs:   0.0003
+   At 1000 docs:   0.0002
+Relative Unranked Average Precision:
+   Exact:         0.1111
+   Average:       0.1054
+   At   5 docs:   0.1600
+   At  10 docs:   0.0400
+   At  15 docs:   0.0178
+   At  20 docs:   0.0100
+   At  30 docs:   0.0044
+   At 100 docs:   0.0004
+   At 200 docs:   0.0001
+   At 500 docs:   0.0000
+   At 1000 docs:   0.0000
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -2.0000
+Average precision for first R docs retrieved:
+                  0.1862
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0833
+    At  28 docs:   0.0833
+    At  42 docs:   0.0833
+    At  56 docs:   0.0833
+    At  71 docs:   0.0833
+    At  85 docs:   0.0833
+    At  99 docs:   0.0833
+    At 113 docs:   0.0833
+    At 127 docs:   0.0833
+    At 142 docs:   0.0833
+Average recall for first 142 nonrel docs retrieved:
+                   0.0822
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.0417 
+R-based-interpolated-Precision:
+    Exact:        0.0833
+    At 0.20  R:   0.4000
+    At 0.40  R:   0.2000
+    At 0.60  R:   0.1333
+    At 0.80  R:   0.1000
+    At 1.00  R:   0.0833
+    At 1.20  R:   0.0690
+    At 1.40  R:   0.0588
+    At 1.60  R:   0.0513
+    At 1.80  R:   0.0455
+    At 2.00  R:   0.0417
+Average interpolated precision for first R docs retrieved:
+                  0.2348
+
+Queryid (Num):       11
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        18
+    Rel_ret:         18
+Interpolated Recall - Precision Averages:
+    at 0.00       0.0968 
+    at 0.10       0.0968 
+    at 0.20       0.0968 
+    at 0.30       0.0968 
+    at 0.40       0.0968 
+    at 0.50       0.0968 
+    at 0.60       0.0968 
+    at 0.70       0.0968 
+    at 0.80       0.0968 
+    at 0.90       0.0968 
+    at 1.00       0.0968 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0670 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0000
+  At   30 docs:   0.0000
+  At  100 docs:   0.0200
+  At  200 docs:   0.0900
+  At  500 docs:   0.0360
+  At 1000 docs:   0.0180
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0000
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.0900
+Recall:
+   Exact:         1.0000
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0000
+   at  30 docs:   0.0000
+   at 100 docs:   0.1111
+   at 200 docs:   1.0000
+   at 500 docs:   1.0000
+   at 1000 docs:   1.0000
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.0968 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.0968 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0000
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0000
+    At 1.00  R:   0.0000
+    At 1.20  R:   0.0000
+    At 1.40  R:   0.0000
+    At 1.60  R:   0.0000
+    At 1.80  R:   0.0000
+    At 2.00  R:   0.0000
+Relative Precision:
+   Exact:         1.0000
+   Average:       0.3514
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.1111
+   At 200 docs:   1.0000
+   At 500 docs:   1.0000
+   At 1000 docs:   1.0000
+Unranked Average Precision:
+   Exact:         0.0900
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0022
+   At 200 docs:   0.0900
+   At 500 docs:   0.0360
+   At 1000 docs:   0.0180
+Relative Unranked Average Precision:
+   Exact:         0.0081
+   Average:       0.2605
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0123
+   At 200 docs:   1.0000
+   At 500 docs:   0.0013
+   At 1000 docs:   0.0003
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -164.0000
+Average precision for first R docs retrieved:
+                  0.0000
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.0000
+    At  42 docs:   0.0000
+    At  56 docs:   0.0000
+    At  71 docs:   0.0556
+    At  85 docs:   0.1111
+    At  99 docs:   0.1111
+    At 113 docs:   0.6111
+    At 127 docs:   0.6111
+    At 142 docs:   0.6667
+Average recall for first 142 nonrel docs retrieved:
+                   0.1733
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.0968 
+R-based-interpolated-Precision:
+    Exact:        0.0968
+    At 0.20  R:   0.0968
+    At 0.40  R:   0.0968
+    At 0.60  R:   0.0968
+    At 0.80  R:   0.0968
+    At 1.00  R:   0.0968
+    At 1.20  R:   0.0968
+    At 1.40  R:   0.0968
+    At 1.60  R:   0.0968
+    At 1.80  R:   0.0968
+    At 2.00  R:   0.0968
+Average interpolated precision for first R docs retrieved:
+                  0.0914
+
+Queryid (Num):       12
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:         9
+    Rel_ret:          8
+Interpolated Recall - Precision Averages:
+    at 0.00       0.0442 
+    at 0.10       0.0442 
+    at 0.20       0.0442 
+    at 0.30       0.0442 
+    at 0.40       0.0442 
+    at 0.50       0.0442 
+    at 0.60       0.0442 
+    at 0.70       0.0442 
+    at 0.80       0.0442 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0246 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0000
+  At   30 docs:   0.0000
+  At  100 docs:   0.0000
+  At  200 docs:   0.0400
+  At  500 docs:   0.0160
+  At 1000 docs:   0.0080
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0000
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.0400
+Recall:
+   Exact:         0.8889
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0000
+   at  30 docs:   0.0000
+   at 100 docs:   0.0000
+   at 200 docs:   0.8889
+   at 500 docs:   0.8889
+   at 1000 docs:   0.8889
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.0362 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.0442 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0000
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0000
+    At 1.00  R:   0.0000
+    At 1.20  R:   0.0000
+    At 1.40  R:   0.0000
+    At 1.60  R:   0.0000
+    At 1.80  R:   0.0000
+    At 2.00  R:   0.0000
+Relative Precision:
+   Exact:         0.8889
+   Average:       0.2022
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0000
+   At 200 docs:   0.8889
+   At 500 docs:   0.8889
+   At 1000 docs:   0.8889
+Unranked Average Precision:
+   Exact:         0.0356
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0000
+   At 200 docs:   0.0356
+   At 500 docs:   0.0142
+   At 1000 docs:   0.0071
+Relative Unranked Average Precision:
+   Exact:         0.0016
+   Average:       0.1378
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0000
+   At 200 docs:   0.7901
+   At 500 docs:   0.0003
+   At 1000 docs:   0.0001
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -184.0000
+Average precision for first R docs retrieved:
+                  0.0000
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.0000
+    At  42 docs:   0.0000
+    At  56 docs:   0.0000
+    At  71 docs:   0.0000
+    At  85 docs:   0.0000
+    At  99 docs:   0.0000
+    At 113 docs:   0.0000
+    At 127 docs:   0.0000
+    At 142 docs:   0.4444
+Average recall for first 142 nonrel docs retrieved:
+                   0.0250
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.0393 
+R-based-interpolated-Precision:
+    Exact:        0.0442
+    At 0.20  R:   0.0442
+    At 0.40  R:   0.0442
+    At 0.60  R:   0.0442
+    At 0.80  R:   0.0442
+    At 1.00  R:   0.0442
+    At 1.20  R:   0.0442
+    At 1.40  R:   0.0442
+    At 1.60  R:   0.0442
+    At 1.80  R:   0.0442
+    At 2.00  R:   0.0442
+Average interpolated precision for first R docs retrieved:
+                  0.0393
+
+Queryid (Num):       13
+Total number of documents over all queries
+    Retrieved:       52
+    Relevant:        21
+    Rel_ret:         18
+Interpolated Recall - Precision Averages:
+    at 0.00       0.3750 
+    at 0.10       0.3750 
+    at 0.20       0.3750 
+    at 0.30       0.3750 
+    at 0.40       0.3750 
+    at 0.50       0.3750 
+    at 0.60       0.3750 
+    at 0.70       0.3750 
+    at 0.80       0.3750 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.2226 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.2000
+  At   30 docs:   0.2333
+  At  100 docs:   0.1800
+  At  200 docs:   0.0900
+  At  500 docs:   0.0360
+  At 1000 docs:   0.0180
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.1905
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.3462
+Recall:
+   Exact:         0.8571
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.1905
+   at  30 docs:   0.3333
+   at 100 docs:   0.8571
+   at 200 docs:   0.8571
+   at 500 docs:   0.8571
+   at 1000 docs:   0.8571
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.3068 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.3750 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.1905
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0588
+    At 1.00  R:   0.1905
+    At 1.20  R:   0.2692
+    At 1.40  R:   0.2333
+    At 1.60  R:   0.2059
+    At 1.80  R:   0.2632
+    At 2.00  R:   0.3333
+Relative Precision:
+   Exact:         0.8571
+   Average:       0.3245
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.2000
+   At  30 docs:   0.3333
+   At 100 docs:   0.8571
+   At 200 docs:   0.8571
+   At 500 docs:   0.8571
+   At 1000 docs:   0.8571
+Unranked Average Precision:
+   Exact:         0.2967
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0381
+   At  30 docs:   0.0778
+   At 100 docs:   0.1543
+   At 200 docs:   0.0771
+   At 500 docs:   0.0309
+   At 1000 docs:   0.0154
+Relative Unranked Average Precision:
+   Exact:         0.1198
+   Average:       0.1919
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0400
+   At  30 docs:   0.1111
+   At 100 docs:   0.0324
+   At 200 docs:   0.0081
+   At 500 docs:   0.0013
+   At 1000 docs:   0.0003
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -16.0000
+Average precision for first R docs retrieved:
+                  0.0281
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0476
+    At  28 docs:   0.7143
+    At  42 docs:   0.8571
+    At  56 docs:   0.8571
+    At  71 docs:   0.8571
+    At  85 docs:   0.8571
+    At  99 docs:   0.8571
+    At 113 docs:   0.8571
+    At 127 docs:   0.8571
+    At 142 docs:   0.8571
+Average recall for first 142 nonrel docs retrieved:
+                   0.7129
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.3214 
+R-based-interpolated-Precision:
+    Exact:        0.3750
+    At 0.20  R:   0.3750
+    At 0.40  R:   0.3750
+    At 0.60  R:   0.3750
+    At 0.80  R:   0.3750
+    At 1.00  R:   0.3750
+    At 1.20  R:   0.3750
+    At 1.40  R:   0.3750
+    At 1.60  R:   0.3750
+    At 1.80  R:   0.3750
+    At 2.00  R:   0.3750
+Average interpolated precision for first R docs retrieved:
+                  0.3571
+
+Queryid (Num):       14
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        16
+    Rel_ret:         15
+Interpolated Recall - Precision Averages:
+    at 0.00       0.0872 
+    at 0.10       0.0872 
+    at 0.20       0.0872 
+    at 0.30       0.0872 
+    at 0.40       0.0872 
+    at 0.50       0.0872 
+    at 0.60       0.0872 
+    at 0.70       0.0872 
+    at 0.80       0.0872 
+    at 0.90       0.0872 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0530 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0000
+  At   30 docs:   0.0000
+  At  100 docs:   0.0000
+  At  200 docs:   0.0750
+  At  500 docs:   0.0300
+  At 1000 docs:   0.0150
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0000
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.0750
+Recall:
+   Exact:         0.9375
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0000
+   at  30 docs:   0.0000
+   at 100 docs:   0.0000
+   at 200 docs:   0.9375
+   at 500 docs:   0.9375
+   at 1000 docs:   0.9375
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.0793 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.0872 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0000
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0000
+    At 1.00  R:   0.0000
+    At 1.20  R:   0.0000
+    At 1.40  R:   0.0000
+    At 1.60  R:   0.0000
+    At 1.80  R:   0.0000
+    At 2.00  R:   0.0000
+Relative Precision:
+   Exact:         0.9375
+   Average:       0.3134
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0000
+   At 200 docs:   0.9375
+   At 500 docs:   0.9375
+   At 1000 docs:   0.9375
+Unranked Average Precision:
+   Exact:         0.0703
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0000
+   At 200 docs:   0.0703
+   At 500 docs:   0.0281
+   At 1000 docs:   0.0141
+Relative Unranked Average Precision:
+   Exact:         0.0056
+   Average:       0.2423
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0000
+   At 200 docs:   0.8789
+   At 500 docs:   0.0009
+   At 1000 docs:   0.0002
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -170.0000
+Average precision for first R docs retrieved:
+                  0.0000
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.0000
+    At  42 docs:   0.0000
+    At  56 docs:   0.0000
+    At  71 docs:   0.0000
+    At  85 docs:   0.0000
+    At  99 docs:   0.0000
+    At 113 docs:   0.3750
+    At 127 docs:   0.6250
+    At 142 docs:   0.6250
+Average recall for first 142 nonrel docs retrieved:
+                   0.1224
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.0818 
+R-based-interpolated-Precision:
+    Exact:        0.0872
+    At 0.20  R:   0.0872
+    At 0.40  R:   0.0872
+    At 0.60  R:   0.0872
+    At 0.80  R:   0.0872
+    At 1.00  R:   0.0872
+    At 1.20  R:   0.0872
+    At 1.40  R:   0.0872
+    At 1.60  R:   0.0872
+    At 1.80  R:   0.0872
+    At 2.00  R:   0.0872
+Average interpolated precision for first R docs retrieved:
+                  0.0818
+
+Queryid (Num):       15
+Total number of documents over all queries
+    Retrieved:       94
+    Relevant:        29
+    Rel_ret:         22
+Interpolated Recall - Precision Averages:
+    at 0.00       0.2418 
+    at 0.10       0.2418 
+    at 0.20       0.2418 
+    at 0.30       0.2418 
+    at 0.40       0.2418 
+    at 0.50       0.2418 
+    at 0.60       0.2418 
+    at 0.70       0.2418 
+    at 0.80       0.0000 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.1247 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0000
+  At   30 docs:   0.0000
+  At  100 docs:   0.2200
+  At  200 docs:   0.1100
+  At  500 docs:   0.0440
+  At 1000 docs:   0.0220
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0000
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.2340
+Recall:
+   Exact:         0.7586
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0000
+   at  30 docs:   0.0000
+   at 100 docs:   0.7586
+   at 200 docs:   0.7586
+   at 500 docs:   0.7586
+   at 1000 docs:   0.7586
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.1758 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.1612 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0000
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0000
+    At 1.00  R:   0.0000
+    At 1.20  R:   0.0000
+    At 1.40  R:   0.0000
+    At 1.60  R:   0.0213
+    At 1.80  R:   0.1132
+    At 2.00  R:   0.1724
+Relative Precision:
+   Exact:         0.7586
+   Average:       0.2417
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.7586
+   At 200 docs:   0.7586
+   At 500 docs:   0.7586
+   At 1000 docs:   0.7586
+Unranked Average Precision:
+   Exact:         0.1775
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.1669
+   At 200 docs:   0.0834
+   At 500 docs:   0.0334
+   At 1000 docs:   0.0167
+Relative Unranked Average Precision:
+   Exact:         0.0548
+   Average:       0.1363
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0484
+   At 200 docs:   0.0121
+   At 500 docs:   0.0019
+   At 1000 docs:   0.0005
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -50.0000
+Average precision for first R docs retrieved:
+                  0.0000
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.0000
+    At  42 docs:   0.0000
+    At  56 docs:   0.4483
+    At  71 docs:   0.7586
+    At  85 docs:   0.7586
+    At  99 docs:   0.7586
+    At 113 docs:   0.7586
+    At 127 docs:   0.7586
+    At 142 docs:   0.7586
+Average recall for first 142 nonrel docs retrieved:
+                   0.4726
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.1834 
+R-based-interpolated-Precision:
+    Exact:        0.2418
+    At 0.20  R:   0.2418
+    At 0.40  R:   0.2418
+    At 0.60  R:   0.2418
+    At 0.80  R:   0.2418
+    At 1.00  R:   0.2418
+    At 1.20  R:   0.2418
+    At 1.40  R:   0.2418
+    At 1.60  R:   0.2418
+    At 1.80  R:   0.2418
+    At 2.00  R:   0.2418
+Average interpolated precision for first R docs retrieved:
+                  0.2334
+
+Queryid (Num):       16
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        13
+    Rel_ret:         13
+Interpolated Recall - Precision Averages:
+    at 0.00       1.0000 
+    at 0.10       0.6667 
+    at 0.20       0.0718 
+    at 0.30       0.0718 
+    at 0.40       0.0718 
+    at 0.50       0.0718 
+    at 0.60       0.0718 
+    at 0.70       0.0718 
+    at 0.80       0.0718 
+    at 0.90       0.0718 
+    at 1.00       0.0718 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.1742 
+Precision:
+  At    5 docs:   0.4000
+  At   10 docs:   0.2000
+  At   15 docs:   0.1333
+  At   20 docs:   0.1000
+  At   30 docs:   0.0667
+  At  100 docs:   0.0200
+  At  200 docs:   0.0650
+  At  500 docs:   0.0260
+  At 1000 docs:   0.0130
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.1538
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.0650
+Recall:
+   Exact:         1.0000
+   at   5 docs:   0.1538
+   at  10 docs:   0.1538
+   at  15 docs:   0.1538
+   at  20 docs:   0.1538
+   at  30 docs:   0.1538
+   at 100 docs:   0.1538
+   at 200 docs:   1.0000
+   at 500 docs:   1.0000
+   at 1000 docs:   1.0000
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.2103 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.0718 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.1538
+    At 0.20  R:   0.6667
+    At 0.40  R:   0.3333
+    At 0.60  R:   0.2500
+    At 0.80  R:   0.1818
+    At 1.00  R:   0.1538
+    At 1.20  R:   0.1250
+    At 1.40  R:   0.1053
+    At 1.60  R:   0.0952
+    At 1.80  R:   0.0833
+    At 2.00  R:   0.0769
+Relative Precision:
+   Exact:         1.0000
+   Average:       0.4139
+   At   5 docs:   0.4000
+   At  10 docs:   0.2000
+   At  15 docs:   0.1538
+   At  20 docs:   0.1538
+   At  30 docs:   0.1538
+   At 100 docs:   0.1538
+   At 200 docs:   1.0000
+   At 500 docs:   1.0000
+   At 1000 docs:   1.0000
+Unranked Average Precision:
+   Exact:         0.0650
+   At   5 docs:   0.0615
+   At  10 docs:   0.0308
+   At  15 docs:   0.0205
+   At  20 docs:   0.0154
+   At  30 docs:   0.0103
+   At 100 docs:   0.0031
+   At 200 docs:   0.0650
+   At 500 docs:   0.0260
+   At 1000 docs:   0.0130
+Relative Unranked Average Precision:
+   Exact:         0.0042
+   Average:       0.2814
+   At   5 docs:   0.1600
+   At  10 docs:   0.0400
+   At  15 docs:   0.0237
+   At  20 docs:   0.0237
+   At  30 docs:   0.0237
+   At 100 docs:   0.0237
+   At 200 docs:   1.0000
+   At 500 docs:   0.0007
+   At 1000 docs:   0.0002
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -174.0000
+Average precision for first R docs retrieved:
+                  0.3620
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0769
+    At  14 docs:   0.1538
+    At  28 docs:   0.1538
+    At  42 docs:   0.1538
+    At  56 docs:   0.1538
+    At  71 docs:   0.1538
+    At  85 docs:   0.1538
+    At  99 docs:   0.1538
+    At 113 docs:   0.1538
+    At 127 docs:   0.6923
+    At 142 docs:   0.6923
+Average recall for first 142 nonrel docs retrieved:
+                   0.2189
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.1890 
+R-based-interpolated-Precision:
+    Exact:        0.1538
+    At 0.20  R:   0.6667
+    At 0.40  R:   0.3333
+    At 0.60  R:   0.2500
+    At 0.80  R:   0.1818
+    At 1.00  R:   0.1538
+    At 1.20  R:   0.1250
+    At 1.40  R:   0.1053
+    At 1.60  R:   0.0952
+    At 1.80  R:   0.0833
+    At 2.00  R:   0.0769
+Average interpolated precision for first R docs retrieved:
+                  0.3749
+
+Queryid (Num):       17
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        21
+    Rel_ret:         16
+Interpolated Recall - Precision Averages:
+    at 0.00       0.0856 
+    at 0.10       0.0856 
+    at 0.20       0.0856 
+    at 0.30       0.0856 
+    at 0.40       0.0856 
+    at 0.50       0.0856 
+    at 0.60       0.0856 
+    at 0.70       0.0856 
+    at 0.80       0.0000 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0414 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0000
+  At   30 docs:   0.0000
+  At  100 docs:   0.0000
+  At  200 docs:   0.0800
+  At  500 docs:   0.0320
+  At 1000 docs:   0.0160
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0000
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.0800
+Recall:
+   Exact:         0.7619
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0000
+   at  30 docs:   0.0000
+   at 100 docs:   0.0000
+   at 200 docs:   0.7619
+   at 500 docs:   0.7619
+   at 1000 docs:   0.7619
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.0622 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.0570 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0000
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0000
+    At 1.00  R:   0.0000
+    At 1.20  R:   0.0000
+    At 1.40  R:   0.0000
+    At 1.60  R:   0.0000
+    At 1.80  R:   0.0000
+    At 2.00  R:   0.0000
+Relative Precision:
+   Exact:         0.7619
+   Average:       0.2033
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0000
+   At 200 docs:   0.7619
+   At 500 docs:   0.7619
+   At 1000 docs:   0.7619
+Unranked Average Precision:
+   Exact:         0.0610
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0000
+   At 200 docs:   0.0610
+   At 500 docs:   0.0244
+   At 1000 docs:   0.0122
+Relative Unranked Average Precision:
+   Exact:         0.0064
+   Average:       0.1163
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0000
+   At 200 docs:   0.5805
+   At 500 docs:   0.0010
+   At 1000 docs:   0.0003
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -168.0000
+Average precision for first R docs retrieved:
+                  0.0000
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.0000
+    At  42 docs:   0.0000
+    At  56 docs:   0.0000
+    At  71 docs:   0.0000
+    At  85 docs:   0.0000
+    At  99 docs:   0.0000
+    At 113 docs:   0.0476
+    At 127 docs:   0.4286
+    At 142 docs:   0.5238
+Average recall for first 142 nonrel docs retrieved:
+                   0.0580
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.0652 
+R-based-interpolated-Precision:
+    Exact:        0.0856
+    At 0.20  R:   0.0856
+    At 0.40  R:   0.0856
+    At 0.60  R:   0.0856
+    At 0.80  R:   0.0856
+    At 1.00  R:   0.0856
+    At 1.20  R:   0.0856
+    At 1.40  R:   0.0856
+    At 1.60  R:   0.0856
+    At 1.80  R:   0.0856
+    At 2.00  R:   0.0856
+Average interpolated precision for first R docs retrieved:
+                  0.0815
+
+Queryid (Num):       18
+Total number of documents over all queries
+    Retrieved:       44
+    Relevant:        15
+    Rel_ret:         12
+Interpolated Recall - Precision Averages:
+    at 0.00       0.4583 
+    at 0.10       0.4583 
+    at 0.20       0.4583 
+    at 0.30       0.4583 
+    at 0.40       0.4583 
+    at 0.50       0.4583 
+    at 0.60       0.4583 
+    at 0.70       0.4583 
+    at 0.80       0.3871 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.2428 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.1333
+  At   20 docs:   0.3500
+  At   30 docs:   0.3667
+  At  100 docs:   0.1200
+  At  200 docs:   0.0600
+  At  500 docs:   0.0240
+  At 1000 docs:   0.0120
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.1333
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.2727
+Recall:
+   Exact:         0.8000
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.1333
+   at  20 docs:   0.4667
+   at  30 docs:   0.7333
+   at 100 docs:   0.8000
+   at 200 docs:   0.8000
+   at 500 docs:   0.8000
+   at 1000 docs:   0.8000
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.3685 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4346 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.1333
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0000
+    At 1.00  R:   0.1333
+    At 1.20  R:   0.2778
+    At 1.40  R:   0.3810
+    At 1.60  R:   0.4583
+    At 1.80  R:   0.4074
+    At 2.00  R:   0.3667
+Relative Precision:
+   Exact:         0.8000
+   Average:       0.4547
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.1333
+   At  20 docs:   0.4667
+   At  30 docs:   0.7333
+   At 100 docs:   0.8000
+   At 200 docs:   0.8000
+   At 500 docs:   0.8000
+   At 1000 docs:   0.8000
+Unranked Average Precision:
+   Exact:         0.2182
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0178
+   At  20 docs:   0.1633
+   At  30 docs:   0.2689
+   At 100 docs:   0.0960
+   At 200 docs:   0.0480
+   At 500 docs:   0.0192
+   At 1000 docs:   0.0096
+Relative Unranked Average Precision:
+   Exact:         0.0744
+   Average:       0.3281
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0178
+   At  20 docs:   0.2178
+   At  30 docs:   0.5378
+   At 100 docs:   0.0144
+   At 200 docs:   0.0036
+   At 500 docs:   0.0006
+   At 1000 docs:   0.0001
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -20.0000
+Average precision for first R docs retrieved:
+                  0.0048
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.7333
+    At  28 docs:   0.8000
+    At  42 docs:   0.8000
+    At  56 docs:   0.8000
+    At  71 docs:   0.8000
+    At  85 docs:   0.8000
+    At  99 docs:   0.8000
+    At 113 docs:   0.8000
+    At 127 docs:   0.8000
+    At 142 docs:   0.8000
+Average recall for first 142 nonrel docs retrieved:
+                   0.7239
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.3619 
+R-based-interpolated-Precision:
+    Exact:        0.4583
+    At 0.20  R:   0.4583
+    At 0.40  R:   0.4583
+    At 0.60  R:   0.4583
+    At 0.80  R:   0.4583
+    At 1.00  R:   0.4583
+    At 1.20  R:   0.4583
+    At 1.40  R:   0.4583
+    At 1.60  R:   0.4583
+    At 1.80  R:   0.4074
+    At 2.00  R:   0.3871
+Average interpolated precision for first R docs retrieved:
+                  0.4278
+
+Queryid (Num):       19
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        27
+    Rel_ret:         19
+Interpolated Recall - Precision Averages:
+    at 0.00       0.2273 
+    at 0.10       0.2273 
+    at 0.20       0.2273 
+    at 0.30       0.2273 
+    at 0.40       0.1439 
+    at 0.50       0.1439 
+    at 0.60       0.1439 
+    at 0.70       0.1439 
+    at 0.80       0.0000 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0929 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0000
+  At   30 docs:   0.0000
+  At  100 docs:   0.1000
+  At  200 docs:   0.0950
+  At  500 docs:   0.0380
+  At 1000 docs:   0.0190
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0000
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.0950
+Recall:
+   Exact:         0.7037
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0000
+   at  30 docs:   0.0000
+   at 100 docs:   0.3704
+   at 200 docs:   0.7037
+   at 500 docs:   0.7037
+   at 1000 docs:   0.7037
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.1350 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.1237 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0000
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0000
+    At 1.00  R:   0.0000
+    At 1.20  R:   0.0606
+    At 1.40  R:   0.1842
+    At 1.60  R:   0.2273
+    At 1.80  R:   0.2041
+    At 2.00  R:   0.1852
+Relative Precision:
+   Exact:         0.7037
+   Average:       0.4346
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.3704
+   At 200 docs:   0.7037
+   At 500 docs:   0.7037
+   At 1000 docs:   0.7037
+Unranked Average Precision:
+   Exact:         0.0669
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.0370
+   At 200 docs:   0.0669
+   At 500 docs:   0.0267
+   At 1000 docs:   0.0134
+Relative Unranked Average Precision:
+   Exact:         0.0090
+   Average:       0.2496
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0000
+   At 100 docs:   0.1372
+   At 200 docs:   0.4952
+   At 500 docs:   0.0014
+   At 1000 docs:   0.0004
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -162.0000
+Average precision for first R docs retrieved:
+                  0.0000
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.0000
+    At  42 docs:   0.3704
+    At  56 docs:   0.3704
+    At  71 docs:   0.3704
+    At  85 docs:   0.3704
+    At  99 docs:   0.3704
+    At 113 docs:   0.7037
+    At 127 docs:   0.7037
+    At 142 docs:   0.7037
+Average recall for first 142 nonrel docs retrieved:
+                   0.3644
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.1322 
+R-based-interpolated-Precision:
+    Exact:        0.2273
+    At 0.20  R:   0.2273
+    At 0.40  R:   0.2273
+    At 0.60  R:   0.2273
+    At 0.80  R:   0.2273
+    At 1.00  R:   0.2273
+    At 1.20  R:   0.2273
+    At 1.40  R:   0.2273
+    At 1.60  R:   0.2273
+    At 1.80  R:   0.2041
+    At 2.00  R:   0.1852
+Average interpolated precision for first R docs retrieved:
+                  0.2189
+
+Queryid (Num):       20
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        39
+    Rel_ret:         30
+Interpolated Recall - Precision Averages:
+    at 0.00       0.3667 
+    at 0.10       0.3667 
+    at 0.20       0.3667 
+    at 0.30       0.3093 
+    at 0.40       0.3093 
+    at 0.50       0.3093 
+    at 0.60       0.3093 
+    at 0.70       0.3093 
+    at 0.80       0.0000 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.1834 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0500
+  At   30 docs:   0.3667
+  At  100 docs:   0.3000
+  At  200 docs:   0.1500
+  At  500 docs:   0.0600
+  At 1000 docs:   0.0300
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.2821
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.1500
+Recall:
+   Exact:         0.7692
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0256
+   at  30 docs:   0.2821
+   at 100 docs:   0.7692
+   at 200 docs:   0.7692
+   at 500 docs:   0.7692
+   at 1000 docs:   0.7692
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.2406 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.2253 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.2821
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.2083
+    At 0.80  R:   0.3438
+    At 1.00  R:   0.2821
+    At 1.20  R:   0.2340
+    At 1.40  R:   0.2000
+    At 1.60  R:   0.1746
+    At 1.80  R:   0.1549
+    At 2.00  R:   0.2179
+Relative Precision:
+   Exact:         0.7692
+   Average:       0.5379
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0500
+   At  30 docs:   0.3667
+   At 100 docs:   0.7692
+   At 200 docs:   0.7692
+   At 500 docs:   0.7692
+   At 1000 docs:   0.7692
+Unranked Average Precision:
+   Exact:         0.1154
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0013
+   At  30 docs:   0.1034
+   At 100 docs:   0.2308
+   At 200 docs:   0.1154
+   At 500 docs:   0.0462
+   At 1000 docs:   0.0231
+Relative Unranked Average Precision:
+   Exact:         0.0225
+   Average:       0.3651
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0025
+   At  30 docs:   0.1344
+   At 100 docs:   0.5917
+   At 200 docs:   0.5917
+   At 500 docs:   0.0036
+   At 1000 docs:   0.0009
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -140.0000
+Average precision for first R docs retrieved:
+                  0.1312
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.2821
+    At  42 docs:   0.2821
+    At  56 docs:   0.2821
+    At  71 docs:   0.7692
+    At  85 docs:   0.7692
+    At  99 docs:   0.7692
+    At 113 docs:   0.7692
+    At 127 docs:   0.7692
+    At 142 docs:   0.7692
+Average recall for first 142 nonrel docs retrieved:
+                   0.5085
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.2541 
+R-based-interpolated-Precision:
+    Exact:        0.3093
+    At 0.20  R:   0.3667
+    At 0.40  R:   0.3667
+    At 0.60  R:   0.3667
+    At 0.80  R:   0.3438
+    At 1.00  R:   0.3093
+    At 1.20  R:   0.3093
+    At 1.40  R:   0.3093
+    At 1.60  R:   0.3093
+    At 1.80  R:   0.3093
+    At 2.00  R:   0.3093
+Average interpolated precision for first R docs retrieved:
+                  0.3487
+
+Queryid (Num):       21
+Total number of documents over all queries
+    Retrieved:      186
+    Relevant:        27
+    Rel_ret:         17
+Interpolated Recall - Precision Averages:
+    at 0.00       0.2963 
+    at 0.10       0.2963 
+    at 0.20       0.2963 
+    at 0.30       0.1771 
+    at 0.40       0.1771 
+    at 0.50       0.1771 
+    at 0.60       0.1771 
+    at 0.70       0.0000 
+    at 0.80       0.0000 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.1048 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.1500
+  At   30 docs:   0.2667
+  At  100 docs:   0.1700
+  At  200 docs:   0.0850
+  At  500 docs:   0.0340
+  At 1000 docs:   0.0170
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.2963
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.0914
+Recall:
+   Exact:         0.6296
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.1111
+   at  30 docs:   0.2963
+   at 100 docs:   0.6296
+   at 200 docs:   0.6296
+   at 500 docs:   0.6296
+   at 1000 docs:   0.6296
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.1452 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.1578 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.2963
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.2273
+    At 1.00  R:   0.2963
+    At 1.20  R:   0.2424
+    At 1.40  R:   0.2105
+    At 1.60  R:   0.1818
+    At 1.80  R:   0.1633
+    At 2.00  R:   0.1481
+Relative Precision:
+   Exact:         0.6296
+   Average:       0.4369
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.1500
+   At  30 docs:   0.2963
+   At 100 docs:   0.6296
+   At 200 docs:   0.6296
+   At 500 docs:   0.6296
+   At 1000 docs:   0.6296
+Unranked Average Precision:
+   Exact:         0.0575
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0167
+   At  30 docs:   0.0790
+   At 100 docs:   0.1070
+   At 200 docs:   0.0535
+   At 500 docs:   0.0214
+   At 1000 docs:   0.0107
+Relative Unranked Average Precision:
+   Exact:         0.0084
+   Average:       0.2364
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0225
+   At  30 docs:   0.0878
+   At 100 docs:   0.3964
+   At 200 docs:   0.0072
+   At 500 docs:   0.0012
+   At 1000 docs:   0.0003
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -152.0000
+Average precision for first R docs retrieved:
+                  0.0632
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.2963
+    At  42 docs:   0.2963
+    At  56 docs:   0.2963
+    At  71 docs:   0.2963
+    At  85 docs:   0.6296
+    At  99 docs:   0.6296
+    At 113 docs:   0.6296
+    At 127 docs:   0.6296
+    At 142 docs:   0.6296
+Average recall for first 142 nonrel docs retrieved:
+                   0.4064
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.1468 
+R-based-interpolated-Precision:
+    Exact:        0.2963
+    At 0.20  R:   0.2963
+    At 0.40  R:   0.2963
+    At 0.60  R:   0.2963
+    At 0.80  R:   0.2963
+    At 1.00  R:   0.2963
+    At 1.20  R:   0.2424
+    At 1.40  R:   0.2105
+    At 1.60  R:   0.1818
+    At 1.80  R:   0.1771
+    At 2.00  R:   0.1771
+Average interpolated precision for first R docs retrieved:
+                  0.2853
+
+Queryid (Num):       22
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        25
+    Rel_ret:         18
+Interpolated Recall - Precision Averages:
+    at 0.00       0.2093 
+    at 0.10       0.2093 
+    at 0.20       0.2093 
+    at 0.30       0.2093 
+    at 0.40       0.2093 
+    at 0.50       0.2093 
+    at 0.60       0.2093 
+    at 0.70       0.2093 
+    at 0.80       0.0000 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.1029 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.1000
+  At   30 docs:   0.1333
+  At  100 docs:   0.1800
+  At  200 docs:   0.0900
+  At  500 docs:   0.0360
+  At 1000 docs:   0.0180
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.1600
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.0900
+Recall:
+   Exact:         0.7200
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0800
+   at  30 docs:   0.1600
+   at 100 docs:   0.7200
+   at 200 docs:   0.7200
+   at 500 docs:   0.7200
+   at 1000 docs:   0.7200
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.1522 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.1395 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.1600
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.1000
+    At 1.00  R:   0.1600
+    At 1.20  R:   0.1333
+    At 1.40  R:   0.1143
+    At 1.60  R:   0.1000
+    At 1.80  R:   0.0889
+    At 2.00  R:   0.0800
+Relative Precision:
+   Exact:         0.7200
+   Average:       0.4996
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.1000
+   At  30 docs:   0.1600
+   At 100 docs:   0.7200
+   At 200 docs:   0.7200
+   At 500 docs:   0.7200
+   At 1000 docs:   0.7200
+Unranked Average Precision:
+   Exact:         0.0648
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0080
+   At  30 docs:   0.0213
+   At 100 docs:   0.1296
+   At 200 docs:   0.0648
+   At 500 docs:   0.0259
+   At 1000 docs:   0.0130
+Relative Unranked Average Precision:
+   Exact:         0.0081
+   Average:       0.3288
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0100
+   At  30 docs:   0.0256
+   At 100 docs:   0.5184
+   At 200 docs:   0.5184
+   At 500 docs:   0.0013
+   At 1000 docs:   0.0003
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -164.0000
+Average precision for first R docs retrieved:
+                  0.0300
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.1600
+    At  42 docs:   0.1600
+    At  56 docs:   0.1600
+    At  71 docs:   0.7200
+    At  85 docs:   0.7200
+    At  99 docs:   0.7200
+    At 113 docs:   0.7200
+    At 127 docs:   0.7200
+    At 142 docs:   0.7200
+Average recall for first 142 nonrel docs retrieved:
+                   0.4468
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.1507 
+R-based-interpolated-Precision:
+    Exact:        0.2093
+    At 0.20  R:   0.2093
+    At 0.40  R:   0.2093
+    At 0.60  R:   0.2093
+    At 0.80  R:   0.2093
+    At 1.00  R:   0.2093
+    At 1.20  R:   0.2093
+    At 1.40  R:   0.2093
+    At 1.60  R:   0.2093
+    At 1.80  R:   0.2093
+    At 2.00  R:   0.2093
+Average interpolated precision for first R docs retrieved:
+                  0.2009
+
+Queryid (Num):       23
+Total number of documents over all queries
+    Retrieved:       28
+    Relevant:        39
+    Rel_ret:         18
+Interpolated Recall - Precision Averages:
+    at 0.00       0.9474 
+    at 0.10       0.9474 
+    at 0.20       0.9474 
+    at 0.30       0.9474 
+    at 0.40       0.9474 
+    at 0.50       0.0000 
+    at 0.60       0.0000 
+    at 0.70       0.0000 
+    at 0.80       0.0000 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.3962 
+Precision:
+  At    5 docs:   0.8000
+  At   10 docs:   0.9000
+  At   15 docs:   0.9333
+  At   20 docs:   0.9000
+  At   30 docs:   0.6000
+  At  100 docs:   0.1800
+  At  200 docs:   0.0900
+  At  500 docs:   0.0360
+  At 1000 docs:   0.0180
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.4615
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.6429
+Recall:
+   Exact:         0.4615
+   at   5 docs:   0.1026
+   at  10 docs:   0.2308
+   at  15 docs:   0.3590
+   at  20 docs:   0.4615
+   at  30 docs:   0.4615
+   at 100 docs:   0.4615
+   at 200 docs:   0.4615
+   at 500 docs:   0.4615
+   at 1000 docs:   0.4615
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.4306 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.3158 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.4615
+    At 0.20  R:   0.8750
+    At 0.40  R:   0.9375
+    At 0.60  R:   0.7500
+    At 0.80  R:   0.5625
+    At 1.00  R:   0.4615
+    At 1.20  R:   0.3830
+    At 1.40  R:   0.3273
+    At 1.60  R:   0.2857
+    At 1.80  R:   0.2535
+    At 2.00  R:   0.2308
+Relative Precision:
+   Exact:         0.6429
+   Average:       0.7958
+   At   5 docs:   0.8000
+   At  10 docs:   0.9000
+   At  15 docs:   0.9333
+   At  20 docs:   0.9000
+   At  30 docs:   0.6000
+   At 100 docs:   0.4615
+   At 200 docs:   0.4615
+   At 500 docs:   0.4615
+   At 1000 docs:   0.4615
+Unranked Average Precision:
+   Exact:         0.2967
+   At   5 docs:   0.0821
+   At  10 docs:   0.2077
+   At  15 docs:   0.3350
+   At  20 docs:   0.4154
+   At  30 docs:   0.2769
+   At 100 docs:   0.0831
+   At 200 docs:   0.0415
+   At 500 docs:   0.0166
+   At 1000 docs:   0.0083
+Relative Unranked Average Precision:
+   Exact:         0.4133
+   Average:       0.6694
+   At   5 docs:   0.6400
+   At  10 docs:   0.8100
+   At  15 docs:   0.8711
+   At  20 docs:   0.8100
+   At  30 docs:   0.3600
+   At 100 docs:   0.0324
+   At 200 docs:   0.0081
+   At 500 docs:   0.0013
+   At 1000 docs:   0.0003
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         8.0000
+Average precision for first R docs retrieved:
+                  0.7266
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.4615
+    At  28 docs:   0.4615
+    At  42 docs:   0.4615
+    At  56 docs:   0.4615
+    At  71 docs:   0.4615
+    At  85 docs:   0.4615
+    At  99 docs:   0.4615
+    At 113 docs:   0.4615
+    At 127 docs:   0.4615
+    At 142 docs:   0.4615
+Average recall for first 142 nonrel docs retrieved:
+                   0.4583
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.4372 
+R-based-interpolated-Precision:
+    Exact:        0.4615
+    At 0.20  R:   0.9474
+    At 0.40  R:   0.9474
+    At 0.60  R:   0.7500
+    At 0.80  R:   0.5625
+    At 1.00  R:   0.4615
+    At 1.20  R:   0.3830
+    At 1.40  R:   0.3273
+    At 1.60  R:   0.2857
+    At 1.80  R:   0.2535
+    At 2.00  R:   0.2308
+Average interpolated precision for first R docs retrieved:
+                  0.7919
+
+Queryid (Num):       24
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        22
+    Rel_ret:         21
+Interpolated Recall - Precision Averages:
+    at 0.00       0.5385 
+    at 0.10       0.5385 
+    at 0.20       0.5385 
+    at 0.30       0.5385 
+    at 0.40       0.5000 
+    at 0.50       0.3333 
+    at 0.60       0.2593 
+    at 0.70       0.2593 
+    at 0.80       0.2593 
+    at 0.90       0.2593 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.3207 
+Precision:
+  At    5 docs:   0.2000
+  At   10 docs:   0.5000
+  At   15 docs:   0.4667
+  At   20 docs:   0.4500
+  At   30 docs:   0.3000
+  At  100 docs:   0.2100
+  At  200 docs:   0.1050
+  At  500 docs:   0.0420
+  At 1000 docs:   0.0210
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.4091
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.1050
+Recall:
+   Exact:         0.9545
+   at   5 docs:   0.0455
+   at  10 docs:   0.2273
+   at  15 docs:   0.3182
+   at  20 docs:   0.4091
+   at  30 docs:   0.4091
+   at 100 docs:   0.9545
+   at 200 docs:   0.9545
+   at 500 docs:   0.9545
+   at 1000 docs:   0.9545
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.3658 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.3770 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.4091
+    At 0.20  R:   0.2000
+    At 0.40  R:   0.4444
+    At 0.60  R:   0.5000
+    At 0.80  R:   0.5000
+    At 1.00  R:   0.4091
+    At 1.20  R:   0.3333
+    At 1.40  R:   0.2903
+    At 1.60  R:   0.3333
+    At 1.80  R:   0.3000
+    At 2.00  R:   0.2727
+Relative Precision:
+   Exact:         0.9545
+   Average:       0.7814
+   At   5 docs:   0.2000
+   At  10 docs:   0.5000
+   At  15 docs:   0.4667
+   At  20 docs:   0.4500
+   At  30 docs:   0.4091
+   At 100 docs:   0.9545
+   At 200 docs:   0.9545
+   At 500 docs:   0.9545
+   At 1000 docs:   0.9545
+Unranked Average Precision:
+   Exact:         0.1002
+   At   5 docs:   0.0091
+   At  10 docs:   0.1136
+   At  15 docs:   0.1485
+   At  20 docs:   0.1841
+   At  30 docs:   0.1227
+   At 100 docs:   0.2005
+   At 200 docs:   0.1002
+   At 500 docs:   0.0401
+   At 1000 docs:   0.0200
+Relative Unranked Average Precision:
+   Exact:         0.0110
+   Average:       0.6675
+   At   5 docs:   0.0400
+   At  10 docs:   0.2500
+   At  15 docs:   0.2178
+   At  20 docs:   0.2025
+   At  30 docs:   0.1674
+   At 100 docs:   0.9112
+   At 200 docs:   0.9112
+   At 500 docs:   0.0018
+   At 1000 docs:   0.0004
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -158.0000
+Average precision for first R docs retrieved:
+                  0.3495
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.4091
+    At  28 docs:   0.5455
+    At  42 docs:   0.5455
+    At  56 docs:   0.7273
+    At  71 docs:   0.9545
+    At  85 docs:   0.9545
+    At  99 docs:   0.9545
+    At 113 docs:   0.9545
+    At 127 docs:   0.9545
+    At 142 docs:   0.9545
+Average recall for first 142 nonrel docs retrieved:
+                   0.7500
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.3683 
+R-based-interpolated-Precision:
+    Exact:        0.4091
+    At 0.20  R:   0.5385
+    At 0.40  R:   0.5385
+    At 0.60  R:   0.5000
+    At 0.80  R:   0.5000
+    At 1.00  R:   0.4091
+    At 1.20  R:   0.3333
+    At 1.40  R:   0.3333
+    At 1.60  R:   0.3333
+    At 1.80  R:   0.3000
+    At 2.00  R:   0.2727
+Average interpolated precision for first R docs retrieved:
+                  0.4933
+
+Queryid (Num):       25
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        24
+    Rel_ret:         22
+Interpolated Recall - Precision Averages:
+    at 0.00       0.5500 
+    at 0.10       0.5500 
+    at 0.20       0.5500 
+    at 0.30       0.5500 
+    at 0.40       0.5500 
+    at 0.50       0.2619 
+    at 0.60       0.2619 
+    at 0.70       0.2619 
+    at 0.80       0.2619 
+    at 0.90       0.2619 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.2850 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.3000
+  At   15 docs:   0.4667
+  At   20 docs:   0.5500
+  At   30 docs:   0.3667
+  At  100 docs:   0.2200
+  At  200 docs:   0.1100
+  At  500 docs:   0.0440
+  At 1000 docs:   0.0220
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.4583
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.1100
+Recall:
+   Exact:         0.9167
+   at   5 docs:   0.0000
+   at  10 docs:   0.1250
+   at  15 docs:   0.2917
+   at  20 docs:   0.4583
+   at  30 docs:   0.4583
+   at 100 docs:   0.9167
+   at 200 docs:   0.9167
+   at 500 docs:   0.9167
+   at 1000 docs:   0.9167
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.3690 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.3579 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.4583
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.3000
+    At 0.60  R:   0.4667
+    At 0.80  R:   0.5500
+    At 1.00  R:   0.4583
+    At 1.20  R:   0.3793
+    At 1.40  R:   0.3235
+    At 1.60  R:   0.2821
+    At 1.80  R:   0.2500
+    At 2.00  R:   0.2292
+Relative Precision:
+   Exact:         0.9167
+   Average:       0.7210
+   At   5 docs:   0.0000
+   At  10 docs:   0.3000
+   At  15 docs:   0.4667
+   At  20 docs:   0.5500
+   At  30 docs:   0.4583
+   At 100 docs:   0.9167
+   At 200 docs:   0.9167
+   At 500 docs:   0.9167
+   At 1000 docs:   0.9167
+Unranked Average Precision:
+   Exact:         0.1008
+   At   5 docs:   0.0000
+   At  10 docs:   0.0375
+   At  15 docs:   0.1361
+   At  20 docs:   0.2521
+   At  30 docs:   0.1681
+   At 100 docs:   0.2017
+   At 200 docs:   0.1008
+   At 500 docs:   0.0403
+   At 1000 docs:   0.0202
+Relative Unranked Average Precision:
+   Exact:         0.0121
+   Average:       0.5851
+   At   5 docs:   0.0000
+   At  10 docs:   0.0900
+   At  15 docs:   0.2178
+   At  20 docs:   0.3025
+   At  30 docs:   0.2101
+   At 100 docs:   0.8403
+   At 200 docs:   0.8403
+   At 500 docs:   0.0019
+   At 1000 docs:   0.0005
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -156.0000
+Average precision for first R docs retrieved:
+                  0.2931
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.4583
+    At  28 docs:   0.4583
+    At  42 docs:   0.4583
+    At  56 docs:   0.4583
+    At  71 docs:   0.9167
+    At  85 docs:   0.9167
+    At  99 docs:   0.9167
+    At 113 docs:   0.9167
+    At 127 docs:   0.9167
+    At 142 docs:   0.9167
+Average recall for first 142 nonrel docs retrieved:
+                   0.6866
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.3721 
+R-based-interpolated-Precision:
+    Exact:        0.4583
+    At 0.20  R:   0.5500
+    At 0.40  R:   0.5500
+    At 0.60  R:   0.5500
+    At 0.80  R:   0.5500
+    At 1.00  R:   0.4583
+    At 1.20  R:   0.3793
+    At 1.40  R:   0.3235
+    At 1.60  R:   0.2821
+    At 1.80  R:   0.2619
+    At 2.00  R:   0.2619
+Average interpolated precision for first R docs retrieved:
+                  0.5209
+
+Queryid (Num):       26
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        28
+    Rel_ret:          4
+Interpolated Recall - Precision Averages:
+    at 0.00       0.1111 
+    at 0.10       0.0571 
+    at 0.20       0.0000 
+    at 0.30       0.0000 
+    at 0.40       0.0000 
+    at 0.50       0.0000 
+    at 0.60       0.0000 
+    at 0.70       0.0000 
+    at 0.80       0.0000 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0086 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.1000
+  At   15 docs:   0.0667
+  At   20 docs:   0.0500
+  At   30 docs:   0.0333
+  At  100 docs:   0.0400
+  At  200 docs:   0.0200
+  At  500 docs:   0.0080
+  At 1000 docs:   0.0040
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0357
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.0200
+Recall:
+   Exact:         0.1429
+   at   5 docs:   0.0000
+   at  10 docs:   0.0357
+   at  15 docs:   0.0357
+   at  20 docs:   0.0357
+   at  30 docs:   0.0357
+   at 100 docs:   0.1429
+   at 200 docs:   0.1429
+   at 500 docs:   0.1429
+   at 1000 docs:   0.1429
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.0153 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.0000 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0357
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0833
+    At 0.60  R:   0.0588
+    At 0.80  R:   0.0435
+    At 1.00  R:   0.0357
+    At 1.20  R:   0.0294
+    At 1.40  R:   0.0250
+    At 1.60  R:   0.0222
+    At 1.80  R:   0.0196
+    At 2.00  R:   0.0179
+Relative Precision:
+   Exact:         0.1429
+   Average:       0.1078
+   At   5 docs:   0.0000
+   At  10 docs:   0.1000
+   At  15 docs:   0.0667
+   At  20 docs:   0.0500
+   At  30 docs:   0.0357
+   At 100 docs:   0.1429
+   At 200 docs:   0.1429
+   At 500 docs:   0.1429
+   At 1000 docs:   0.1429
+Unranked Average Precision:
+   Exact:         0.0029
+   At   5 docs:   0.0000
+   At  10 docs:   0.0036
+   At  15 docs:   0.0024
+   At  20 docs:   0.0018
+   At  30 docs:   0.0012
+   At 100 docs:   0.0057
+   At 200 docs:   0.0029
+   At 500 docs:   0.0011
+   At 1000 docs:   0.0006
+Relative Unranked Average Precision:
+   Exact:         0.0004
+   Average:       0.0141
+   At   5 docs:   0.0000
+   At  10 docs:   0.0100
+   At  15 docs:   0.0044
+   At  20 docs:   0.0025
+   At  30 docs:   0.0013
+   At 100 docs:   0.0204
+   At 200 docs:   0.0204
+   At 500 docs:   0.0001
+   At 1000 docs:   0.0000
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -192.0000
+Average precision for first R docs retrieved:
+                  0.0419
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0357
+    At  28 docs:   0.0357
+    At  42 docs:   0.0357
+    At  56 docs:   0.0357
+    At  71 docs:   0.1429
+    At  85 docs:   0.1429
+    At  99 docs:   0.1429
+    At 113 docs:   0.1429
+    At 127 docs:   0.1429
+    At 142 docs:   0.1429
+Average recall for first 142 nonrel docs retrieved:
+                   0.0905
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.0101 
+R-based-interpolated-Precision:
+    Exact:        0.0571
+    At 0.20  R:   0.1111
+    At 0.40  R:   0.0833
+    At 0.60  R:   0.0588
+    At 0.80  R:   0.0571
+    At 1.00  R:   0.0571
+    At 1.20  R:   0.0571
+    At 1.40  R:   0.0571
+    At 1.60  R:   0.0571
+    At 1.80  R:   0.0571
+    At 2.00  R:   0.0571
+Average interpolated precision for first R docs retrieved:
+                  0.0779
+
+Queryid (Num):       27
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        18
+    Rel_ret:         10
+Interpolated Recall - Precision Averages:
+    at 0.00       0.3333 
+    at 0.10       0.3000 
+    at 0.20       0.1563 
+    at 0.30       0.1563 
+    at 0.40       0.1563 
+    at 0.50       0.1563 
+    at 0.60       0.0000 
+    at 0.70       0.0000 
+    at 0.80       0.0000 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0958 
+Precision:
+  At    5 docs:   0.2000
+  At   10 docs:   0.3000
+  At   15 docs:   0.2000
+  At   20 docs:   0.1500
+  At   30 docs:   0.1000
+  At  100 docs:   0.1000
+  At  200 docs:   0.0500
+  At  500 docs:   0.0200
+  At 1000 docs:   0.0100
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.1667
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.0500
+Recall:
+   Exact:         0.5556
+   at   5 docs:   0.0556
+   at  10 docs:   0.1667
+   at  15 docs:   0.1667
+   at  20 docs:   0.1667
+   at  30 docs:   0.1667
+   at 100 docs:   0.5556
+   at 200 docs:   0.5556
+   at 500 docs:   0.5556
+   at 1000 docs:   0.5556
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.1144 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.1042 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.1667
+    At 0.20  R:   0.2500
+    At 0.40  R:   0.2500
+    At 0.60  R:   0.2727
+    At 0.80  R:   0.2000
+    At 1.00  R:   0.1667
+    At 1.20  R:   0.1364
+    At 1.40  R:   0.1154
+    At 1.60  R:   0.1034
+    At 1.80  R:   0.0909
+    At 2.00  R:   0.0833
+Relative Precision:
+   Exact:         0.5556
+   Average:       0.4438
+   At   5 docs:   0.2000
+   At  10 docs:   0.3000
+   At  15 docs:   0.2000
+   At  20 docs:   0.1667
+   At  30 docs:   0.1667
+   At 100 docs:   0.5556
+   At 200 docs:   0.5556
+   At 500 docs:   0.5556
+   At 1000 docs:   0.5556
+Unranked Average Precision:
+   Exact:         0.0278
+   At   5 docs:   0.0111
+   At  10 docs:   0.0500
+   At  15 docs:   0.0333
+   At  20 docs:   0.0250
+   At  30 docs:   0.0167
+   At 100 docs:   0.0556
+   At 200 docs:   0.0278
+   At 500 docs:   0.0111
+   At 1000 docs:   0.0056
+Relative Unranked Average Precision:
+   Exact:         0.0025
+   Average:       0.2263
+   At   5 docs:   0.0400
+   At  10 docs:   0.0900
+   At  15 docs:   0.0400
+   At  20 docs:   0.0278
+   At  30 docs:   0.0278
+   At 100 docs:   0.3086
+   At 200 docs:   0.3086
+   At 500 docs:   0.0004
+   At 1000 docs:   0.0001
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -180.0000
+Average precision for first R docs retrieved:
+                  0.1966
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.1667
+    At  28 docs:   0.1667
+    At  42 docs:   0.1667
+    At  56 docs:   0.5556
+    At  71 docs:   0.5556
+    At  85 docs:   0.5556
+    At  99 docs:   0.5556
+    At 113 docs:   0.5556
+    At 127 docs:   0.5556
+    At 142 docs:   0.5556
+Average recall for first 142 nonrel docs retrieved:
+                   0.4002
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.1126 
+R-based-interpolated-Precision:
+    Exact:        0.1667
+    At 0.20  R:   0.3000
+    At 0.40  R:   0.3000
+    At 0.60  R:   0.2727
+    At 0.80  R:   0.2000
+    At 1.00  R:   0.1667
+    At 1.20  R:   0.1563
+    At 1.40  R:   0.1563
+    At 1.60  R:   0.1563
+    At 1.80  R:   0.1563
+    At 2.00  R:   0.1563
+Average interpolated precision for first R docs retrieved:
+                  0.2573
+
+Queryid (Num):       28
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        39
+    Rel_ret:         37
+Interpolated Recall - Precision Averages:
+    at 0.00       1.0000 
+    at 0.10       0.9091 
+    at 0.20       0.9091 
+    at 0.30       0.5323 
+    at 0.40       0.5323 
+    at 0.50       0.5323 
+    at 0.60       0.5323 
+    at 0.70       0.5323 
+    at 0.80       0.5323 
+    at 0.90       0.1850 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.4872 
+Precision:
+  At    5 docs:   0.8000
+  At   10 docs:   0.9000
+  At   15 docs:   0.6667
+  At   20 docs:   0.5000
+  At   30 docs:   0.3333
+  At  100 docs:   0.3300
+  At  200 docs:   0.1850
+  At  500 docs:   0.0740
+  At 1000 docs:   0.0370
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.3077
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.1850
+Recall:
+   Exact:         0.9487
+   at   5 docs:   0.1026
+   at  10 docs:   0.2308
+   at  15 docs:   0.2564
+   at  20 docs:   0.2564
+   at  30 docs:   0.2564
+   at 100 docs:   0.8462
+   at 200 docs:   0.9487
+   at 500 docs:   0.9487
+   at 1000 docs:   0.9487
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.5633 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.6579 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.3077
+    At 0.20  R:   0.8750
+    At 0.40  R:   0.6250
+    At 0.60  R:   0.4167
+    At 0.80  R:   0.3125
+    At 1.00  R:   0.3077
+    At 1.20  R:   0.4043
+    At 1.40  R:   0.4727
+    At 1.60  R:   0.5238
+    At 1.80  R:   0.4648
+    At 2.00  R:   0.4231
+Relative Precision:
+   Exact:         0.9487
+   Average:       0.7584
+   At   5 docs:   0.8000
+   At  10 docs:   0.9000
+   At  15 docs:   0.6667
+   At  20 docs:   0.5000
+   At  30 docs:   0.3333
+   At 100 docs:   0.8462
+   At 200 docs:   0.9487
+   At 500 docs:   0.9487
+   At 1000 docs:   0.9487
+Unranked Average Precision:
+   Exact:         0.1755
+   At   5 docs:   0.0821
+   At  10 docs:   0.2077
+   At  15 docs:   0.1709
+   At  20 docs:   0.1282
+   At  30 docs:   0.0855
+   At 100 docs:   0.2792
+   At 200 docs:   0.1755
+   At 500 docs:   0.0702
+   At 1000 docs:   0.0351
+Relative Unranked Average Precision:
+   Exact:         0.0342
+   Average:       0.6060
+   At   5 docs:   0.6400
+   At  10 docs:   0.8100
+   At  15 docs:   0.4444
+   At  20 docs:   0.2500
+   At  30 docs:   0.1111
+   At 100 docs:   0.7160
+   At 200 docs:   0.9001
+   At 500 docs:   0.0055
+   At 1000 docs:   0.0014
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -126.0000
+Average precision for first R docs retrieved:
+                  0.5407
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0256
+    At  14 docs:   0.2564
+    At  28 docs:   0.8462
+    At  42 docs:   0.8462
+    At  56 docs:   0.8462
+    At  71 docs:   0.8462
+    At  85 docs:   0.8462
+    At  99 docs:   0.8462
+    At 113 docs:   0.8462
+    At 127 docs:   0.8462
+    At 142 docs:   0.8462
+Average recall for first 142 nonrel docs retrieved:
+                   0.7207
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.5683 
+R-based-interpolated-Precision:
+    Exact:        0.5323
+    At 0.20  R:   0.9091
+    At 0.40  R:   0.6250
+    At 0.60  R:   0.5323
+    At 0.80  R:   0.5323
+    At 1.00  R:   0.5323
+    At 1.20  R:   0.5323
+    At 1.40  R:   0.5323
+    At 1.60  R:   0.5238
+    At 1.80  R:   0.4648
+    At 2.00  R:   0.4231
+Average interpolated precision for first R docs retrieved:
+                  0.6535
+
+Queryid (Num):       29
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        37
+    Rel_ret:         27
+Interpolated Recall - Precision Averages:
+    at 0.00       0.2712 
+    at 0.10       0.2712 
+    at 0.20       0.2712 
+    at 0.30       0.2712 
+    at 0.40       0.2712 
+    at 0.50       0.1371 
+    at 0.60       0.1371 
+    at 0.70       0.1371 
+    at 0.80       0.0000 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.1041 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0000
+  At   30 docs:   0.0333
+  At  100 docs:   0.1600
+  At  200 docs:   0.1350
+  At  500 docs:   0.0540
+  At 1000 docs:   0.0270
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0270
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.1350
+Recall:
+   Exact:         0.7297
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0000
+   at  30 docs:   0.0270
+   at 100 docs:   0.4324
+   at 200 docs:   0.7297
+   at 500 docs:   0.7297
+   at 1000 docs:   0.7297
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.1606 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.1361 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0270
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0333
+    At 1.00  R:   0.0270
+    At 1.20  R:   0.1111
+    At 1.40  R:   0.1731
+    At 1.60  R:   0.2667
+    At 1.80  R:   0.2388
+    At 2.00  R:   0.2162
+Relative Precision:
+   Exact:         0.7297
+   Average:       0.3436
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0333
+   At 100 docs:   0.4324
+   At 200 docs:   0.7297
+   At 500 docs:   0.7297
+   At 1000 docs:   0.7297
+Unranked Average Precision:
+   Exact:         0.0985
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0009
+   At 100 docs:   0.0692
+   At 200 docs:   0.0985
+   At 500 docs:   0.0394
+   At 1000 docs:   0.0197
+Relative Unranked Average Precision:
+   Exact:         0.0182
+   Average:       0.1549
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0011
+   At 100 docs:   0.1870
+   At 200 docs:   0.5325
+   At 500 docs:   0.0029
+   At 1000 docs:   0.0007
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -146.0000
+Average precision for first R docs retrieved:
+                  0.0087
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.0270
+    At  42 docs:   0.4324
+    At  56 docs:   0.4324
+    At  71 docs:   0.4324
+    At  85 docs:   0.4324
+    At  99 docs:   0.4324
+    At 113 docs:   0.4324
+    At 127 docs:   0.4324
+    At 142 docs:   0.4324
+Average recall for first 142 nonrel docs retrieved:
+                   0.3051
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.1580 
+R-based-interpolated-Precision:
+    Exact:        0.2712
+    At 0.20  R:   0.2712
+    At 0.40  R:   0.2712
+    At 0.60  R:   0.2712
+    At 0.80  R:   0.2712
+    At 1.00  R:   0.2712
+    At 1.20  R:   0.2712
+    At 1.40  R:   0.2712
+    At 1.60  R:   0.2667
+    At 1.80  R:   0.2388
+    At 2.00  R:   0.2162
+Average interpolated precision for first R docs retrieved:
+                  0.2639
+
+Queryid (Num):       30
+Total number of documents over all queries
+    Retrieved:      200
+    Relevant:        14
+    Rel_ret:          7
+Interpolated Recall - Precision Averages:
+    at 0.00       0.0400 
+    at 0.10       0.0359 
+    at 0.20       0.0359 
+    at 0.30       0.0359 
+    at 0.40       0.0359 
+    at 0.50       0.0359 
+    at 0.60       0.0000 
+    at 0.70       0.0000 
+    at 0.80       0.0000 
+    at 0.90       0.0000 
+    at 1.00       0.0000 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.0129 
+Precision:
+  At    5 docs:   0.0000
+  At   10 docs:   0.0000
+  At   15 docs:   0.0000
+  At   20 docs:   0.0000
+  At   30 docs:   0.0333
+  At  100 docs:   0.0100
+  At  200 docs:   0.0350
+  At  500 docs:   0.0140
+  At 1000 docs:   0.0070
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.0000
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.0350
+Recall:
+   Exact:         0.5000
+   at   5 docs:   0.0000
+   at  10 docs:   0.0000
+   at  15 docs:   0.0000
+   at  20 docs:   0.0000
+   at  30 docs:   0.0714
+   at 100 docs:   0.0714
+   at 200 docs:   0.5000
+   at 500 docs:   0.5000
+   at 1000 docs:   0.5000
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.0200 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.0239 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.0000
+    At 0.20  R:   0.0000
+    At 0.40  R:   0.0000
+    At 0.60  R:   0.0000
+    At 0.80  R:   0.0000
+    At 1.00  R:   0.0000
+    At 1.20  R:   0.0000
+    At 1.40  R:   0.0000
+    At 1.60  R:   0.0000
+    At 1.80  R:   0.0385
+    At 2.00  R:   0.0357
+Relative Precision:
+   Exact:         0.5000
+   Average:       0.0836
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0714
+   At 100 docs:   0.0714
+   At 200 docs:   0.5000
+   At 500 docs:   0.5000
+   At 1000 docs:   0.5000
+Unranked Average Precision:
+   Exact:         0.0175
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0024
+   At 100 docs:   0.0007
+   At 200 docs:   0.0175
+   At 500 docs:   0.0070
+   At 1000 docs:   0.0035
+Relative Unranked Average Precision:
+   Exact:         0.0012
+   Average:       0.0148
+   At   5 docs:   0.0000
+   At  10 docs:   0.0000
+   At  15 docs:   0.0000
+   At  20 docs:   0.0000
+   At  30 docs:   0.0051
+   At 100 docs:   0.0051
+   At 200 docs:   0.2500
+   At 500 docs:   0.0002
+   At 1000 docs:   0.0000
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -186.0000
+Average precision for first R docs retrieved:
+                  0.0000
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0000
+    At  14 docs:   0.0000
+    At  28 docs:   0.0714
+    At  42 docs:   0.0714
+    At  56 docs:   0.0714
+    At  71 docs:   0.0714
+    At  85 docs:   0.0714
+    At  99 docs:   0.0714
+    At 113 docs:   0.0714
+    At 127 docs:   0.0714
+    At 142 docs:   0.0714
+Average recall for first 142 nonrel docs retrieved:
+                   0.0589
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.0182 
+R-based-interpolated-Precision:
+    Exact:        0.0400
+    At 0.20  R:   0.0400
+    At 0.40  R:   0.0400
+    At 0.60  R:   0.0400
+    At 0.80  R:   0.0400
+    At 1.00  R:   0.0400
+    At 1.20  R:   0.0400
+    At 1.40  R:   0.0400
+    At 1.60  R:   0.0400
+    At 1.80  R:   0.0385
+    At 2.00  R:   0.0359
+Average interpolated precision for first R docs retrieved:
+                  0.0371
+
+Queryid (Num):       30
+Total number of documents over all queries
+    Retrieved:     4812
+    Relevant:       696
+    Rel_ret:        530
+Interpolated Recall - Precision Averages:
+    at 0.00       0.3235 
+    at 0.10       0.2897 
+    at 0.20       0.2555 
+    at 0.30       0.2371 
+    at 0.40       0.2296 
+    at 0.50       0.1784 
+    at 0.60       0.1695 
+    at 0.70       0.1626 
+    at 0.80       0.1154 
+    at 0.90       0.0702 
+    at 1.00       0.0122 
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.1430 
+Precision:
+  At    5 docs:   0.1000
+  At   10 docs:   0.1333
+  At   15 docs:   0.1267
+  At   20 docs:   0.1500
+  At   30 docs:   0.1400
+  At  100 docs:   0.1160
+  At  200 docs:   0.0883
+  At  500 docs:   0.0353
+  At 1000 docs:   0.0177
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.1334
+
+----------------------------------------------------------------
+The following measures included for TREC 1 compatability
+
+Precision:
+   Exact:         0.1580
+Recall:
+   Exact:         0.7812
+   at   5 docs:   0.0196
+   at  10 docs:   0.0494
+   at  15 docs:   0.0715
+   at  20 docs:   0.1189
+   at  30 docs:   0.1646
+   at 100 docs:   0.4522
+   at 200 docs:   0.7812
+   at 500 docs:   0.7812
+   at 1000 docs:   0.7812
+Average interpolated precision for all 11 recall points
+   11-pt Avg:     0.1858 
+Average interpolated precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.1831 
+
+----------------------------------------------------------------
+The following measures are possible for future TRECs
+
+R-based-Precision (precision after given multiple of R docs retrieved):
+    Exact:        0.1334
+    At 0.20  R:   0.1197
+    At 0.40  R:   0.1262
+    At 0.60  R:   0.1288
+    At 0.80  R:   0.1394
+    At 1.00  R:   0.1334
+    At 1.20  R:   0.1363
+    At 1.40  R:   0.1409
+    At 1.60  R:   0.1449
+    At 1.80  R:   0.1367
+    At 2.00  R:   0.1322
+Relative Precision:
+   Exact:         0.7955
+   Average:       0.3909
+   At   5 docs:   0.1000
+   At  10 docs:   0.1333
+   At  15 docs:   0.1274
+   At  20 docs:   0.1568
+   At  30 docs:   0.1776
+   At 100 docs:   0.4522
+   At 200 docs:   0.7812
+   At 500 docs:   0.7812
+   At 1000 docs:   0.7812
+Unranked Average Precision:
+   Exact:         0.1184
+   At   5 docs:   0.0096
+   At  10 docs:   0.0241
+   At  15 docs:   0.0315
+   At  20 docs:   0.0471
+   At  30 docs:   0.0503
+   At 100 docs:   0.0830
+   At 200 docs:   0.0738
+   At 500 docs:   0.0295
+   At 1000 docs:   0.0148
+Relative Unranked Average Precision:
+   Exact:         0.0462
+   Average:       0.2595
+   At   5 docs:   0.0573
+   At  10 docs:   0.0760
+   At  15 docs:   0.0658
+   At  20 docs:   0.0710
+   At  30 docs:   0.0718
+   At 100 docs:   0.2097
+   At 200 docs:   0.4688
+   At 500 docs:   0.0015
+   At 1000 docs:   0.0004
+Utility (1.0,-1.0,0.0,0.0):
+   Exact:         -125.0667
+Average precision for first R docs retrieved:
+                  0.1179
+Fallout - Recall Averages (recall after X nonrel docs retrieved):
+    At   0 docs:   0.0034
+    At  14 docs:   0.1229
+    At  28 docs:   0.2245
+    At  42 docs:   0.2645
+    At  56 docs:   0.3120
+    At  71 docs:   0.3946
+    At  85 docs:   0.4479
+    At  99 docs:   0.4582
+    At 113 docs:   0.5027
+    At 127 docs:   0.5971
+    At 142 docs:   0.6425
+Average recall for first 142 nonrel docs retrieved:
+                   0.3594
+
+----------------------------------------------------------------
+The following measures are interpolated versions of measures above.
+For the following, interpolated_prec(X) == MAX (prec(Y)) for all Y >= X
+All these measures are experimental
+
+Average interpolated precision over all rel docs
+                  0.1882 
+R-based-interpolated-Precision:
+    Exact:        0.2254
+    At 0.20  R:   0.3050
+    At 0.40  R:   0.2743
+    At 0.60  R:   0.2538
+    At 0.80  R:   0.2390
+    At 1.00  R:   0.2254
+    At 1.20  R:   0.2123
+    At 1.40  R:   0.2053
+    At 1.60  R:   0.2001
+    At 1.80  R:   0.1893
+    At 2.00  R:   0.1821
+Average interpolated precision for first R docs retrieved:
+                  0.2605
