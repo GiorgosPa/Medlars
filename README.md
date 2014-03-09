@@ -1,5 +1,5 @@
 Medlars Search
 ==============
 
-A web application that allows the user to search for medical documents
-from medlars collection (ftp://ftp.cs.cornell.edu/pub/smart/med).
+A search engine, with apache's lucene library, for medical documents
+rom medlars collection (ftp://ftp.cs.cornell.edu/pub/smart/med).
